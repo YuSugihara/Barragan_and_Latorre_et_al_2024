@@ -66,7 +66,7 @@ gffread -g Br62.fa -x Br62.cds.fa Br62.gff3
 gffread -g Br62.fa -x Br62.miniprot.cds.fa Br62.miniprot.gff3
 ```
 
-***Input files:*
+***Input files:**
 - [AG006.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/2_genomes/AG006.fa): *M. oryzae* AG006 genome
 - [Br62.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/2_genomes/Br62.fa): *M. oryzae* Br62 genome
 - [AG006.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/4_BRAKER_annotation/AG006.gff3): BRAKER annotation of AG006
@@ -229,13 +229,12 @@ gffread -y Br62.merged.protein.fa \
 - [Br62.miniprot_qc.filtered.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/Br62.miniprot_qc.filtered.gff3): miniprot annotation of Br62 after filtering
 
 **Output files:**
-- [AG006.merged.gff3](): Merged annotation of AG006
-- [Br62.merged.gff3](): Merged annotation of Br62
-- [AG006.merged.cds.fa](): CDS extracted from merged annotation of AG006
-- [Br62.merged.cds.fa](): CDS extracted from merged annotation of Br62
-- [AG006.merged.protein.fa](): Protein sequences extracted from merged annotation of AG006
-- [Br62.merged.protein.fa](): Protein sequences extracted from merged annotation of Br62
-
+- [AG006.merged.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/6_merged_annotation/AG006.merged.gff3): Merged annotation of AG006
+- [Br62.merged.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/6_merged_annotation/Br62.merged.gff3): Merged annotation of Br62
+- [AG006.merged.cds.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/6_merged_annotation/AG006.merged.cds.fa): CDS extracted from merged annotation of AG006
+- [Br62.merged.cds.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/6_merged_annotation/Br62.merged.cds.fa): CDS extracted from merged annotation of Br62
+- [AG006.merged.protein.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/6_merged_annotation/AG006.merged.protein.fa): Protein sequences extracted from merged annotation of AG006
+- [Br62.merged.protein.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/6_merged_annotation/Br62.merged.protein.fa): Protein sequences extracted from merged annotation of Br62
 
 
 ## Dependencies
