@@ -6,8 +6,6 @@
 2. [Filter and merge gene models](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/tree/main#2-filter-and-merge-gene-models)
 
 
-
-
 ## 1. Annotate effectors using miniprot
 To complement the effector annotation of BRAKER, we used miniprot and aligned two effector datasets ([Petit-Houdenot et al., 2020](https://doi.org/10.1094/MPMI-03-20-0052-A); [Yan et al., 2023](https://doi.org/10.1093/plcell/koad036)) to [AG006 and Br62 genomes](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/tree/main/2_genomes).
 
@@ -188,8 +186,59 @@ Br62.miniprot_qc.filtered.gff3
 - [Br62.miniprot_qc.filtered.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/Br62.miniprot_qc.filtered.gff3): miniprot annotation of Br62 after filtering
 
 
+Finally, we merged the BRAKER and miniprot annotations and extracted CDS and protein sequences using gffread.
 
-**Dependencies:**
+```bash
+gffread --sort-alpha \
+        --force-exons \
+        -M \
+        -K \
+        AG006.braker_qc.filtered.gff3 \
+        AG006.miniprot_qc.filtered.gff3 > \
+        AG006.merged.gff3
+
+gffread --sort-alpha \
+        --force-exons \
+        -M \
+        -K \
+        Br62.braker_qc.filtered.gff3 \
+        Br62.miniprot_qc.filtered.gff3 > \
+        Br62.merged.gff3
+
+gffread -x AG006.merged.cds.fa \
+        -g AG006.fa \
+        AG006.merged.gff3
+
+gffread -x Br62.merged.cds.fa \
+        -g Br62.fa \
+        Br62.merged.gff3
+
+gffread -y AG006.merged.protein.fa \
+        -g AG006.fa \
+        AG006.merged.gff3
+
+gffread -y Br62.merged.protein.fa \
+        -g Br62.fa \
+        Br62.merged.gff3
+```
+
+**Input files:**
+- [AG006.braker_qc.filtered.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/AG006.braker_qc.filtered.gff3): BRAKER annotation of AG006 after filtering
+- [AG006.miniprot_qc.filtered.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/AG006.miniprot_qc.filtered.gff3): miniprot annotation of AG006 after filtering
+- [Br62.braker_qc.filtered.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/Br62.braker_qc.filtered.gff3): BRAKER annotation of Br62 after filtering
+- [Br62.miniprot_qc.filtered.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/Br62.miniprot_qc.filtered.gff3): miniprot annotation of Br62 after filtering
+
+**Output files:**
+- [AG006.merged.gff3](): Merged annotation of AG006
+- [Br62.merged.gff3](): Merged annotation of Br62
+- [AG006.merged.cds.fa](): CDS extracted from merged annotation of AG006
+- [Br62.merged.cds.fa](): CDS extracted from merged annotation of Br62
+- [AG006.merged.protein.fa](): Protein sequences extracted from merged annotation of AG006
+- [Br62.merged.protein.fa](): Protein sequences extracted from merged annotation of Br62
+
+
+
+## Dependencies
 
 | Program    | Version    |
 | ---------- | ---------- |
