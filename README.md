@@ -133,11 +133,63 @@ gff_qc.py Br62.miniprot.gff3 \
 - [Br62.miniprot.cds.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/3_miniprot_annotation/Br62.miniprot.cds.fa): CDS extracted from miniprot annotation of Br62
 
 **Output files:**
-- [AG006.braker_qc.gff3](): BRAKER annotation of AG006 with QC annotations
-- [AG006.braker_qc.txt](): List of QC annotations for AG006 BRAKER annotation
-- [Br62.braker_qc.gff3](): BRAKER annotation of Br62 with QC annotations
-- [Br62.braker_qc.txt](): List of QC annotations for Br62 BRAKER annotation
+- [AG006.braker_qc.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/AG006.braker_qc.gff3): BRAKER annotation of AG006 with QC annotations
+- [AG006.braker_qc.txt](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/AG006.braker_qc.txt): List of QC annotations for AG006 BRAKER annotation
+- [Br62.braker_qc.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/Br62.braker_qc.gff3): BRAKER annotation of Br62 with QC annotations
+- [Br62.braker_qc.txt](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/Br62.braker_qc.txt): List of QC annotations for Br62 BRAKER annotation
+- [AG006.miniprot_qc.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/AG006.miniprot_qc.filtered.gff3): miniprot annotation of AG006 with QC annotations
+- [AG006.miniprot_qc.txt](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/AG006.miniprot_qc.txt): List of QC annotations for AG006 miniprot annotation
+- [Br62.miniprot_qc.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/Br62.miniprot_qc.filtered.gff3): miniprot annotation of Br62 with QC annotations
+- [Br62.miniprot_qc.txt](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/Br62.miniprot_qc.txt): List of QC annotations for Br62 miniprot annotation
 
+
+We filtered out gene models that lacked complete codons, contained a premature stop codon within the CDS, did not start with a start codon, or were shorter than 150 bases.
+
+```bash
+grep -v 'not_multiple_of_3' AG006.braker_qc.gff3  | \
+grep -v 'stop_codon_in_cds' | \
+grep -v 'no_start_codon' | \
+grep -v 'shorter_than_150nt' | \
+cut -f 1-9 > \
+AG006.braker_qc.filtered.gff3
+
+grep -v 'not_multiple_of_3' AG006.miniprot_qc.gff3  | \
+grep -v 'stop_codon_in_cds' | \
+grep -v 'no_start_codon' | \
+grep -v 'shorter_than_150nt' | \
+cut -f 1-9 > \
+AG006.miniprot_qc.filtered.gff3
+
+grep -v 'not_multiple_of_3' Br62.braker_qc.gff3  | \
+grep -v 'stop_codon_in_cds' | \
+grep -v 'no_start_codon' | \
+grep -v 'shorter_than_150nt' | \
+cut -f 1-9 > \
+Br62.braker_qc.filtered.gff3
+
+grep -v 'not_multiple_of_3' Br62.miniprot_qc.gff3  | \
+grep -v 'stop_codon_in_cds' | \
+grep -v 'no_start_codon' | \
+grep -v 'shorter_than_150nt' | \
+cut -f 1-9 > \
+Br62.miniprot_qc.filtered.gff3
+```
+
+**Input files:**
+- [AG006.braker_qc.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/AG006.braker_qc.gff3): BRAKER annotation of AG006 with QC annotations
+- [Br62.braker_qc.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/Br62.braker_qc.gff3): BRAKER annotation of Br62 with QC annotations
+- [AG006.miniprot_qc.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/AG006.miniprot_qc.filtered.gff3): miniprot annotation of AG006 with QC annotations
+- [Br62.miniprot_qc.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/Br62.miniprot_qc.filtered.gff3): miniprot annotation of Br62 with QC annotations
+
+**Output files:**
+- [AG006.braker_qc.filtered.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/AG006.braker_qc.filtered.gff3): BRAKER annotation of AG006 after filtering
+- [AG006.miniprot_qc.filtered.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/AG006.miniprot_qc.filtered.gff3): miniprot annotation of AG006 after filtering
+- [Br62.braker_qc.filtered.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/Br62.braker_qc.filtered.gff3): BRAKER annotation of Br62 after filtering
+- [Br62.miniprot_qc.filtered.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/Br62.miniprot_qc.filtered.gff3): miniprot annotation of Br62 after filtering
+
+
+
+**Dependencies:**
 
 | Program    | Version    |
 | ---------- | ---------- |
