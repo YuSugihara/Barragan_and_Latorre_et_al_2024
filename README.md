@@ -54,8 +54,8 @@ grep -v "##PAF" > Br62.miniprot.gff3
 - [effector_dataset.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/1_effector_dataset/effector_dataset.fa): Merged effector dataset
 
 **Output files:**
-- [AG006.miniprot.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/3_miniprot_annotation/AG006.miniprot.gff3)
-- [Br62.miniprot.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/3_miniprot_annotation/Br62.miniprot.gff3)
+- [AG006.miniprot.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/3_miniprot_annotation/AG006.miniprot.gff3): miniprot annotation of AG006
+- [Br62.miniprot.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/3_miniprot_annotation/Br62.miniprot.gff3): miniprot annotation of Br62
 
 ## 2. Filter and merge gene models
 
@@ -90,9 +90,22 @@ Using [gff_qc.py](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/
 #           <input_CDS_FASTA> \
 #           <min_nt_length_check_points> \
 #           <repeat_masking_%_check_points> \
-#           1> <GFF3_with_new_annotation_columns> \
+#           1> <GFF3_with_qc_annotation_columns> \
 #           2> <list_of_annotations>
 
+gff_qc.py AG006.gff3 \
+          AG006.cds.fa \
+          150,180,195 \
+          10,25,50 \
+          1> AG006.braker_qc.gff3 \
+          2> AG006.braker_qc.txt
+
+gff_qc.py Br62.gff3 \
+          Br62.cds.fa \
+          150,180,195 \
+          10,25,50 \
+          1> Br62.braker_qc.gff3 \
+          2> Br62.braker_qc.txt
 
 gff_qc.py AG006.miniprot.gff3 \
           AG006.miniprot.cds.fa \
@@ -109,6 +122,21 @@ gff_qc.py Br62.miniprot.gff3 \
           2> Br62.miniprot_qc.txt
 ```
 
+**Input files:**
+- [AG006.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/4_BRAKER_annotation/AG006.gff3): BRAKER annotation of AG006
+- [AG006.cds.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/4_BRAKER_annotation/AG006.cds.fa): CDS extracted from BRAKER annotation of AG006
+- [Br62.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/4_BRAKER_annotation/Br62.gff3): BRAKER annotation of Br62
+- [Br62.cds.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/4_BRAKER_annotation/Br62.cds.fa): CDS extracted from BRAKER annotation of Br62
+- [AG006.miniprot.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/3_miniprot_annotation/AG006.miniprot.gff3): miniprot annotation of AG006
+- [AG006.miniprot.cds.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/3_miniprot_annotation/AG006.miniprot.cds.fa): CDS extracted from miniprot annotation of AG006
+- [Br62.miniprot.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/3_miniprot_annotation/Br62.miniprot.gff3): miniprot annotation of Br62
+- [Br62.miniprot.cds.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/3_miniprot_annotation/Br62.miniprot.cds.fa): CDS extracted from miniprot annotation of Br62
+
+**Output files:**
+- [AG006.braker_qc.gff3](): BRAKER annotation of AG006 with QC annotations
+- [AG006.braker_qc.txt](): List of QC annotations for AG006 BRAKER annotation
+- [Br62.braker_qc.gff3](): BRAKER annotation of Br62 with QC annotations
+- [Br62.braker_qc.txt](): List of QC annotations for Br62 BRAKER annotation
 
 
 | Program    | Version    |

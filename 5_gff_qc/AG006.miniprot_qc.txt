@@ -1,0 +1,2401 @@
+SEC000001	
+SEC000002	no_stop_codon
+SEC000003	no_stop_codon
+SEC000004	no_stop_codon
+SEC000005	
+SEC000006	
+SEC000007	
+SEC000008	
+SEC000009	no_stop_codon
+SEC000010	
+SEC000011	
+SEC000012	
+SEC000013	no_start_codon
+SEC000014	stop_codon_in_cds
+SEC000015	
+SEC000016	no_stop_codon
+SEC000017	
+SEC000018	
+SEC000019	
+SEC000020	
+SEC000021	
+SEC000022	
+SEC000023	
+SEC000024	
+SEC000025	
+SEC000026	
+SEC000027	
+SEC000028	not_multiple_of_3
+SEC000029	
+SEC000030	
+SEC000031	no_stop_codon|masked_over_00
+SEC000032	
+SEC000033	
+SEC000034	no_stop_codon|not_multiple_of_3|masked_over_00
+SEC000035	
+SEC000036	
+SEC000037	not_multiple_of_3
+SEC000038	no_start_codon|no_stop_codon|shorter_than_150nt|shorter_than_180nt|shorter_than_195nt
+SEC000039	
+SEC000040	
+SEC000041	no_start_codon|no_stop_codon|not_multiple_of_3
+SEC000042	no_start_codon|no_stop_codon
+SEC000043	no_start_codon|no_stop_codon|not_multiple_of_3
+SEC000044	not_multiple_of_3
+SEC000045	not_multiple_of_3
+SEC000046	
+SEC000047	no_stop_codon
+SEC000048	no_stop_codon|not_multiple_of_3
+SEC000049	
+SEC000050	
+SEC000051	
+SEC000052	
+SEC000053	
+SEC000054	no_stop_codon
+SEC000055	not_multiple_of_3|shorter_than_195nt
+SEC000056	no_stop_codon|not_multiple_of_3|masked_over_00
+SEC000057	
+SEC000058	
+SEC000059	
+SEC000060	not_multiple_of_3
+SEC000061	no_stop_codon|not_multiple_of_3
+SEC000062	no_stop_codon|not_multiple_of_3
+SEC000063	no_stop_codon|not_multiple_of_3
+SEC000064	no_start_codon|no_stop_codon|not_multiple_of_3
+SEC000065	
+SEC000066	
+SEC000067	
+SEC000068	stop_codon_in_cds
+SEC000069	not_multiple_of_3
+SEC000070	no_stop_codon|not_multiple_of_3
+SEC000071	not_multiple_of_3
+SEC000072	not_multiple_of_3
+SEC000073	not_multiple_of_3
+SEC000074	not_multiple_of_3
+SEC000075	
+SEC000076	
+SEC000077	
+SEC000078	no_stop_codon|shorter_than_195nt
+SEC000079	not_multiple_of_3|shorter_than_195nt
+SEC000080	not_multiple_of_3
+SEC000081	not_multiple_of_3
+SEC000082	
+SEC000083	
+SEC000084	
+SEC000085	
+SEC000086	not_multiple_of_3
+SEC000087	no_stop_codon
+SEC000088	
+SEC000089	
+SEC000090	
+SEC000091	
+SEC000092	
+SEC000093	
+SEC000094	
+SEC000095	
+SEC000096	
+SEC000097	
+SEC000098	
+SEC000099	
+SEC000100	
+SEC000101	
+SEC000102	
+SEC000103	
+SEC000104	not_multiple_of_3
+SEC000105	
+SEC000106	
+SEC000107	
+SEC000108	not_multiple_of_3
+SEC000109	
+SEC000110	
+SEC000111	
+SEC000112	not_multiple_of_3
+SEC000113	
+SEC000114	
+SEC000115	
+SEC000116	
+SEC000117	
+SEC000118	
+SEC000119	
+SEC000120	
+SEC000121	
+SEC000122	
+SEC000123	not_multiple_of_3
+SEC000124	
+SEC000125	
+SEC000126	
+SEC000127	not_multiple_of_3
+SEC000128	
+SEC000129	
+SEC000130	
+SEC000131	
+SEC000132	
+SEC000133	not_multiple_of_3
+SEC000134	
+SEC000135	
+SEC000136	no_stop_codon
+SEC000137	masked_over_00
+SEC000138	
+SEC000139	
+SEC000140	not_multiple_of_3
+SEC000141	
+SEC000142	
+SEC000143	
+SEC000144	
+SEC000145	
+SEC000146	no_start_codon|no_stop_codon
+SEC000147	no_start_codon|no_stop_codon|shorter_than_180nt|shorter_than_195nt
+SEC000148	
+SEC000149	not_multiple_of_3
+SEC000150	no_stop_codon
+SEC000151	no_stop_codon
+SEC000152	
+SEC000153	
+SEC000154	
+SEC000155	
+SEC000156	
+SEC000157	masked_over_00|masked_over_10|shorter_than_195nt
+SEC000158	no_stop_codon|shorter_than_180nt|shorter_than_195nt
+SEC000159	
+SEC000160	
+SEC000161	
+SEC000162	not_multiple_of_3
+SEC000163	not_multiple_of_3
+SEC000164	not_multiple_of_3
+SEC000165	stop_codon_in_cds
+SEC000166	not_multiple_of_3
+SEC000167	
+SEC000168	not_multiple_of_3
+SEC000169	
+SEC000170	
+SEC000171	no_stop_codon|not_multiple_of_3
+SEC000172	not_multiple_of_3
+SEC000173	
+SEC000174	
+SEC000175	
+SEC000176	
+SEC000177	
+SEC000178	
+SEC000179	
+SEC000180	
+SEC000181	
+SEC000182	not_multiple_of_3
+SEC000183	
+SEC000184	
+SEC000185	
+SEC000186	
+SEC000187	not_multiple_of_3
+SEC000188	not_multiple_of_3
+SEC000189	
+SEC000190	not_multiple_of_3
+SEC000191	stop_codon_in_cds
+SEC000192	
+SEC000193	
+SEC000194	
+SEC000195	
+SEC000196	
+SEC000197	not_multiple_of_3
+SEC000198	
+SEC000199	
+SEC000200	
+SEC000201	not_multiple_of_3
+SEC000202	no_start_codon
+SEC000203	
+SEC000204	
+SEC000205	
+SEC000206	
+SEC000207	no_stop_codon
+SEC000208	
+SEC000209	
+SEC000210	
+SEC000211	
+SEC000212	
+SEC000213	
+SEC000214	
+SEC000215	
+SEC000216	
+SEC000217	
+SEC000218	
+SEC000219	
+SEC000220	
+SEC000221	
+SEC000222	
+SEC000223	
+SEC000224	no_start_codon|not_multiple_of_3
+SEC000225	
+SEC000226	not_multiple_of_3
+SEC000227	
+SEC000228	
+SEC000229	not_multiple_of_3
+SEC000230	not_multiple_of_3
+SEC000231	
+SEC000232	
+SEC000233	
+SEC000234	
+SEC000235	
+SEC000236	not_multiple_of_3
+SEC000237	
+SEC000238	not_multiple_of_3
+SEC000239	no_stop_codon
+SEC000240	no_start_codon|no_stop_codon|not_multiple_of_3
+SEC000241	
+SEC000242	not_multiple_of_3
+SEC000243	not_multiple_of_3
+SEC000244	
+SEC000245	not_multiple_of_3
+SEC000246	
+SEC000247	not_multiple_of_3
+SEC000248	no_stop_codon|not_multiple_of_3
+SEC000249	
+SEC000250	
+SEC000251	not_multiple_of_3
+SEC000252	
+SEC000253	not_multiple_of_3
+SEC000254	
+SEC000255	
+SEC000256	
+SEC000257	not_multiple_of_3
+SEC000258	
+SEC000259	
+SEC000260	
+SEC000261	
+SEC000262	
+SEC000263	
+SEC000264	
+SEC000265	
+SEC000266	
+SEC000267	
+SEC000268	
+SEC000269	
+SEC000270	
+SEC000271	
+SEC000272	no_stop_codon|not_multiple_of_3
+SEC000273	
+SEC000274	
+SEC000275	
+SEC000276	
+SEC000277	
+SEC000278	
+SEC000279	
+SEC000280	
+SEC000281	
+SEC000282	
+SEC000283	no_start_codon|no_stop_codon
+SEC000284	
+SEC000285	
+SEC000286	
+SEC000287	not_multiple_of_3
+SEC000288	
+SEC000289	not_multiple_of_3
+SEC000290	
+SEC000291	
+SEC000292	no_start_codon|not_multiple_of_3
+SEC000293	
+SEC000294	
+SEC000295	
+SEC000296	
+SEC000297	
+SEC000298	not_multiple_of_3
+SEC000299	
+SEC000300	
+SEC000301	
+SEC000302	
+SEC000303	
+SEC000304	
+SEC000305	not_multiple_of_3
+SEC000306	
+SEC000307	
+SEC000308	
+SEC000309	
+SEC000310	
+SEC000311	not_multiple_of_3
+SEC000312	
+SEC000313	
+SEC000314	
+SEC000315	not_multiple_of_3
+SEC000316	
+SEC000317	
+SEC000318	
+SEC000319	
+SEC000320	no_start_codon|no_stop_codon|not_multiple_of_3
+SEC000321	no_start_codon
+SEC000322	no_start_codon
+SEC000323	not_multiple_of_3
+SEC000324	no_start_codon|no_stop_codon
+SEC000325	no_start_codon|no_stop_codon|not_multiple_of_3
+SEC000326	not_multiple_of_3
+SEC000327	
+SEC000328	
+SEC000329	not_multiple_of_3
+SEC000330	
+SEC000331	not_multiple_of_3
+SEC000332	
+SEC000333	
+SEC000334	
+SEC000335	not_multiple_of_3
+SEC000336	
+SEC000337	not_multiple_of_3
+SEC000338	
+SEC000339	
+SEC000340	
+SEC000341	
+SEC000342	
+SEC000343	
+SEC000344	
+SEC000345	
+SEC000346	
+SEC000347	not_multiple_of_3
+SEC000348	not_multiple_of_3
+SEC000349	
+SEC000350	
+SEC000351	masked_over_00|masked_over_10|masked_over_25
+SEC000352	not_multiple_of_3
+SEC000353	not_multiple_of_3
+SEC000354	
+SEC000355	
+SEC000356	
+SEC000357	
+SEC000358	
+SEC000359	
+SEC000360	
+SEC000361	
+SEC000362	not_multiple_of_3
+SEC000363	
+SEC000364	
+SEC000365	
+SEC000366	
+SEC000367	not_multiple_of_3
+SEC000368	no_start_codon|masked_over_00|masked_over_10
+SEC000369	no_stop_codon
+SEC000370	no_start_codon|no_stop_codon
+SEC000371	no_start_codon|no_stop_codon|not_multiple_of_3
+SEC000372	no_start_codon|no_stop_codon
+SEC000373	
+SEC000374	not_multiple_of_3
+SEC000375	
+SEC000376	
+SEC000377	
+SEC000378	
+SEC000379	no_start_codon
+SEC000380	not_multiple_of_3
+SEC000381	
+SEC000382	
+SEC000383	
+SEC000384	
+SEC000385	
+SEC000386	not_multiple_of_3
+SEC000387	
+SEC000388	
+SEC000389	not_multiple_of_3
+SEC000390	
+SEC000391	not_multiple_of_3
+SEC000392	
+SEC000393	
+SEC000394	
+SEC000395	no_start_codon
+SEC000396	no_stop_codon|masked_over_00|masked_over_10
+SEC000397	
+SEC000398	no_stop_codon
+SEC000399	
+SEC000400	
+SEC000401	no_start_codon
+SEC000402	
+SEC000403	no_start_codon|no_stop_codon
+SEC000404	
+SEC000405	not_multiple_of_3
+SEC000406	not_multiple_of_3
+SEC000407	
+SEC000408	no_start_codon|no_stop_codon
+SEC000409	
+SEC000410	
+SEC000411	not_multiple_of_3
+SEC000412	not_multiple_of_3
+SEC000413	stop_codon_in_cds
+SEC000414	not_multiple_of_3
+SEC000415	no_start_codon|not_multiple_of_3
+SEC000416	
+SEC000417	no_stop_codon
+SEC000418	no_start_codon|no_stop_codon
+SEC000419	no_start_codon|no_stop_codon
+SEC000420	no_stop_codon
+SEC000421	no_start_codon|no_stop_codon
+SEC000422	stop_codon_in_cds
+SEC000423	
+SEC000424	no_start_codon|no_stop_codon
+SEC000425	
+SEC000426	not_multiple_of_3
+SEC000427	
+SEC000428	no_start_codon|no_stop_codon
+SEC000429	no_start_codon|no_stop_codon
+SEC000430	no_stop_codon
+SEC000431	no_start_codon|no_stop_codon
+SEC000432	no_stop_codon
+SEC000433	not_multiple_of_3
+SEC000434	not_multiple_of_3
+SEC000435	not_multiple_of_3|masked_over_00
+SEC000436	no_stop_codon|not_multiple_of_3
+SEC000437	not_multiple_of_3
+SEC000438	not_multiple_of_3
+SEC000439	not_multiple_of_3|masked_over_00
+SEC000440	not_multiple_of_3
+SEC000441	no_start_codon|no_stop_codon
+SEC000442	not_multiple_of_3
+SEC000443	not_multiple_of_3|masked_over_00
+SEC000444	not_multiple_of_3
+SEC000445	not_multiple_of_3
+SEC000446	
+SEC000447	
+SEC000448	not_multiple_of_3
+SEC000449	
+SEC000450	
+SEC000451	no_start_codon|no_stop_codon|not_multiple_of_3
+SEC000452	no_start_codon|no_stop_codon|not_multiple_of_3
+SEC000453	no_start_codon|no_stop_codon|not_multiple_of_3
+SEC000454	no_start_codon|no_stop_codon|stop_codon_in_cds
+SEC000455	
+SEC000456	
+SEC000457	no_stop_codon
+SEC000458	not_multiple_of_3
+SEC000459	
+SEC000460	
+SEC000461	no_stop_codon
+SEC000462	
+SEC000463	
+SEC000464	no_start_codon|not_multiple_of_3
+SEC000465	not_multiple_of_3
+SEC000466	
+SEC000467	
+SEC000468	no_start_codon|no_stop_codon|not_multiple_of_3
+SEC000469	no_stop_codon
+SEC000470	
+SEC000471	
+SEC000472	
+SEC000473	
+SEC000474	no_start_codon
+SEC000475	no_start_codon
+SEC000476	no_start_codon|no_stop_codon
+SEC000477	
+SEC000478	
+SEC000479	
+SEC000480	not_multiple_of_3
+SEC000481	not_multiple_of_3
+SEC000482	
+SEC000483	not_multiple_of_3
+SEC000484	not_multiple_of_3
+SEC000485	no_start_codon|not_multiple_of_3
+SEC000486	no_start_codon|not_multiple_of_3
+SEC000487	no_start_codon|stop_codon_in_cds
+SEC000488	
+SEC000489	
+SEC000490	
+SEC000491	not_multiple_of_3
+SEC000492	
+SEC000493	
+SEC000494	not_multiple_of_3
+SEC000495	not_multiple_of_3|masked_over_00|masked_over_10
+SEC000496	not_multiple_of_3
+SEC000497	
+SEC000498	
+SEC000499	
+SEC000500	
+SEC000501	
+SEC000502	
+SEC000503	
+SEC000504	not_multiple_of_3
+SEC000505	
+SEC000506	
+SEC000507	not_multiple_of_3
+SEC000508	
+SEC000509	
+SEC000510	
+SEC000511	
+SEC000512	
+SEC000513	
+SEC000514	
+SEC000515	no_stop_codon
+SEC000516	not_multiple_of_3
+SEC000517	not_multiple_of_3
+SEC000518	not_multiple_of_3
+SEC000519	
+SEC000520	
+SEC000521	no_stop_codon
+SEC000522	
+SEC000523	
+SEC000524	
+SEC000525	
+SEC000526	not_multiple_of_3
+SEC000527	no_stop_codon|not_multiple_of_3
+SEC000528	not_multiple_of_3
+SEC000529	
+SEC000530	no_stop_codon
+SEC000531	
+SEC000532	
+SEC000533	
+SEC000534	
+SEC000535	
+SEC000536	
+SEC000537	no_start_codon|no_stop_codon
+SEC000538	
+SEC000539	no_start_codon|no_stop_codon|stop_codon_in_cds
+SEC000540	
+SEC000541	stop_codon_in_cds
+SEC000542	no_start_codon|no_stop_codon
+SEC000543	no_start_codon|no_stop_codon
+SEC000544	
+SEC000545	no_start_codon|no_stop_codon|stop_codon_in_cds
+SEC000546	
+SEC000547	
+SEC000548	
+SEC000549	
+SEC000550	
+SEC000551	no_stop_codon
+SEC000552	
+SEC000553	
+SEC000554	
+SEC000555	no_start_codon|no_stop_codon
+SEC000556	
+SEC000557	
+SEC000558	no_start_codon|no_stop_codon
+SEC000559	
+SEC000560	not_multiple_of_3
+SEC000561	stop_codon_in_cds
+SEC000562	
+SEC000563	
+SEC000564	no_start_codon|no_stop_codon
+SEC000565	not_multiple_of_3
+SEC000566	
+SEC000567	no_start_codon|no_stop_codon
+SEC000568	
+SEC000569	
+SEC000570	
+SEC000571	not_multiple_of_3
+SEC000572	
+SEC000573	
+SEC000574	no_start_codon
+SEC000575	
+SEC000576	
+SEC000577	
+SEC000578	not_multiple_of_3
+SEC000579	not_multiple_of_3
+SEC000580	
+SEC000581	
+SEC000582	
+SEC000583	
+SEC000584	
+SEC000585	
+SEC000586	not_multiple_of_3
+SEC000587	
+SEC000588	
+SEC000589	
+SEC000590	not_multiple_of_3
+SEC000591	
+SEC000592	no_start_codon|not_multiple_of_3
+SEC000593	
+SEC000594	
+SEC000595	
+SEC000596	masked_over_00
+SEC000597	
+SEC000598	not_multiple_of_3
+SEC000599	
+SEC000600	
+SEC000601	not_multiple_of_3
+SEC000602	
+SEC000603	
+SEC000604	no_stop_codon
+SEC000605	not_multiple_of_3
+SEC000606	
+SEC000607	
+SEC000608	
+SEC000609	
+SEC000610	
+SEC000611	
+SEC000612	
+SEC000613	
+SEC000614	
+SEC000615	
+SEC000616	
+SEC000617	not_multiple_of_3
+SEC000618	
+SEC000619	no_stop_codon|masked_over_00
+SEC000620	
+SEC000621	
+SEC000622	not_multiple_of_3
+SEC000623	no_stop_codon
+SEC000624	no_stop_codon
+SEC000625	
+SEC000626	
+SEC000627	
+SEC000628	
+SEC000629	not_multiple_of_3
+SEC000630	
+SEC000631	
+SEC000632	
+SEC000633	
+SEC000634	
+SEC000635	no_stop_codon|masked_over_00|shorter_than_180nt|shorter_than_195nt
+SEC000636	no_stop_codon|masked_over_00|shorter_than_180nt|shorter_than_195nt
+SEC000637	
+SEC000638	
+SEC000639	no_stop_codon
+SEC000640	
+SEC000641	
+SEC000642	
+SEC000643	
+SEC000644	
+SEC000645	not_multiple_of_3
+SEC000646	
+SEC000647	not_multiple_of_3
+SEC000648	
+SEC000649	
+SEC000650	
+SEC000651	
+SEC000652	masked_over_00
+SEC000653	
+SEC000654	
+SEC000655	no_start_codon|no_stop_codon|not_multiple_of_3
+SEC000656	
+SEC000657	
+SEC000658	no_start_codon|no_stop_codon
+SEC000659	
+SEC000660	stop_codon_in_cds
+SEC000661	not_multiple_of_3
+SEC000662	no_start_codon|no_stop_codon
+SEC000663	not_multiple_of_3
+SEC000664	
+SEC000665	not_multiple_of_3
+SEC000666	
+SEC000667	
+SEC000668	no_stop_codon
+SEC000669	masked_over_00
+SEC000670	
+SEC000671	
+SEC000672	no_start_codon|no_stop_codon
+SEC000673	no_start_codon|no_stop_codon
+SEC000674	not_multiple_of_3
+SEC000675	
+SEC000676	not_multiple_of_3
+SEC000677	stop_codon_in_cds
+SEC000678	
+SEC000679	not_multiple_of_3
+SEC000680	not_multiple_of_3
+SEC000681	
+SEC000682	
+SEC000683	stop_codon_in_cds
+SEC000684	
+SEC000685	not_multiple_of_3
+SEC000686	
+SEC000687	
+SEC000688	
+SEC000689	
+SEC000690	
+SEC000691	
+SEC000692	
+SEC000693	not_multiple_of_3
+SEC000694	
+SEC000695	
+SEC000696	
+SEC000697	
+SEC000698	not_multiple_of_3
+SEC000699	
+SEC000700	
+SEC000701	not_multiple_of_3
+SEC000702	
+SEC000703	
+SEC000704	
+SEC000705	
+SEC000706	not_multiple_of_3
+SEC000707	not_multiple_of_3
+SEC000708	
+SEC000709	stop_codon_in_cds
+SEC000710	
+SEC000711	
+SEC000712	
+SEC000713	
+SEC000714	not_multiple_of_3
+SEC000715	not_multiple_of_3
+SEC000716	
+SEC000717	
+SEC000718	
+SEC000719	not_multiple_of_3
+SEC000720	
+SEC000721	not_multiple_of_3
+SEC000722	
+SEC000723	not_multiple_of_3
+SEC000724	
+SEC000725	
+SEC000726	
+SEC000727	no_start_codon
+SEC000728	not_multiple_of_3
+SEC000729	
+SEC000730	
+SEC000731	
+SEC000732	
+SEC000733	not_multiple_of_3
+SEC000734	
+SEC000735	not_multiple_of_3
+SEC000736	not_multiple_of_3
+SEC000737	not_multiple_of_3
+SEC000738	not_multiple_of_3
+SEC000739	no_start_codon|no_stop_codon|stop_codon_in_cds
+SEC000740	
+SEC000741	
+SEC000742	
+SEC000743	
+SEC000744	
+SEC000745	not_multiple_of_3
+SEC000746	no_start_codon|no_stop_codon|not_multiple_of_3
+SEC000747	
+SEC000748	no_stop_codon|not_multiple_of_3
+SEC000749	
+SEC000750	
+SEC000751	
+SEC000752	
+SEC000753	
+SEC000754	not_multiple_of_3
+SEC000755	not_multiple_of_3
+SEC000756	
+SEC000757	no_stop_codon|not_multiple_of_3
+SEC000758	
+SEC000759	not_multiple_of_3
+SEC000760	not_multiple_of_3
+SEC000761	no_stop_codon
+SEC000762	
+SEC000763	not_multiple_of_3
+SEC000764	not_multiple_of_3
+SEC000765	
+SEC000766	
+SEC000767	no_stop_codon|not_multiple_of_3
+SEC000768	
+SEC000769	
+SEC000770	
+SEC000771	
+SEC000772	
+SEC000773	
+SEC000774	not_multiple_of_3
+SEC000775	not_multiple_of_3
+SEC000776	
+SEC000777	not_multiple_of_3
+SEC000778	not_multiple_of_3
+SEC000779	shorter_than_195nt
+SEC000780	no_stop_codon|shorter_than_180nt|shorter_than_195nt
+SEC000781	shorter_than_195nt
+SEC000782	no_stop_codon|shorter_than_180nt|shorter_than_195nt
+SEC000783	
+SEC000784	
+SEC000785	
+SEC000786	
+SEC000787	not_multiple_of_3
+SEC000788	
+SEC000789	not_multiple_of_3
+SEC000790	
+SEC000791	
+SEC000792	not_multiple_of_3
+SEC000793	not_multiple_of_3
+SEC000794	
+SEC000795	not_multiple_of_3
+SEC000796	
+SEC000797	
+SEC000798	stop_codon_in_cds
+SEC000799	
+SEC000800	
+SEC000801	no_stop_codon
+SEC000802	
+SEC000803	no_stop_codon
+SEC000804	
+SEC000805	
+SEC000806	
+SEC000807	
+SEC000808	
+SEC000809	not_multiple_of_3
+SEC000810	
+SEC000811	
+SEC000812	not_multiple_of_3
+SEC000813	stop_codon_in_cds
+SEC000814	not_multiple_of_3
+SEC000815	
+SEC000816	
+SEC000817	stop_codon_in_cds
+SEC000818	
+SEC000819	no_start_codon|no_stop_codon
+SEC000820	not_multiple_of_3
+SEC000821	
+SEC000822	no_stop_codon
+SEC000823	no_start_codon|no_stop_codon
+SEC000824	
+SEC000825	
+SEC000826	
+SEC000827	
+SEC000828	stop_codon_in_cds
+SEC000829	
+SEC000830	stop_codon_in_cds
+SEC000831	
+SEC000832	
+SEC000833	
+SEC000834	
+SEC000835	
+SEC000836	
+SEC000837	
+SEC000838	
+SEC000839	
+SEC000840	
+SEC000841	
+SEC000842	
+SEC000843	
+SEC000844	not_multiple_of_3
+SEC000845	
+SEC000846	
+SEC000847	not_multiple_of_3
+SEC000848	no_stop_codon|not_multiple_of_3
+SEC000849	
+SEC000850	no_stop_codon|not_multiple_of_3
+SEC000851	
+SEC000852	not_multiple_of_3
+SEC000853	not_multiple_of_3
+SEC000854	
+SEC000855	no_stop_codon|not_multiple_of_3
+SEC000856	no_stop_codon
+SEC000857	stop_codon_in_cds
+SEC000858	not_multiple_of_3
+SEC000859	no_start_codon|no_stop_codon|not_multiple_of_3
+SEC000860	
+SEC000861	
+SEC000862	
+SEC000863	
+SEC000864	
+SEC000865	
+SEC000866	
+SEC000867	
+SEC000868	not_multiple_of_3
+SEC000869	
+SEC000870	not_multiple_of_3
+SEC000871	
+SEC000872	
+SEC000873	
+SEC000874	
+SEC000875	
+SEC000876	
+SEC000877	
+SEC000878	
+SEC000879	
+SEC000880	
+SEC000881	
+SEC000882	
+SEC000883	not_multiple_of_3
+SEC000884	
+SEC000885	not_multiple_of_3
+SEC000886	no_start_codon|no_stop_codon
+SEC000887	
+SEC000888	no_start_codon|no_stop_codon|not_multiple_of_3
+SEC000889	
+SEC000890	no_start_codon
+SEC000891	
+SEC000892	
+SEC000893	no_start_codon
+SEC000894	
+SEC000895	not_multiple_of_3
+SEC000896	not_multiple_of_3
+SEC000897	
+SEC000898	
+SEC000899	
+SEC000900	not_multiple_of_3
+SEC000901	
+SEC000902	no_stop_codon
+SEC000903	no_start_codon
+SEC000904	not_multiple_of_3
+SEC000905	
+SEC000906	
+SEC000907	no_stop_codon
+SEC000908	
+SEC000909	not_multiple_of_3
+SEC000910	no_stop_codon
+SEC000911	
+SEC000912	
+SEC000913	no_start_codon|no_stop_codon|not_multiple_of_3
+SEC000914	
+SEC000915	not_multiple_of_3
+SEC000916	
+SEC000917	
+SEC000918	
+SEC000919	
+SEC000920	
+SEC000921	
+SEC000922	
+SEC000923	
+SEC000924	
+SEC000925	
+SEC000926	
+SEC000927	no_stop_codon|not_multiple_of_3
+SEC000928	
+SEC000929	
+SEC000930	not_multiple_of_3
+SEC000931	
+SEC000932	not_multiple_of_3
+SEC000933	
+SEC000934	not_multiple_of_3
+SEC000935	
+SEC000936	
+SEC000937	
+SEC000938	not_multiple_of_3
+SEC000939	stop_codon_in_cds
+SEC000940	
+SEC000941	
+SEC000942	not_multiple_of_3
+SEC000943	
+SEC000944	
+SEC000945	
+SEC000946	
+SEC000947	not_multiple_of_3
+SEC000948	
+SEC000949	
+SEC000950	not_multiple_of_3
+SEC000951	
+SEC000952	
+SEC000953	
+SEC000954	
+SEC000955	
+SEC000956	
+SEC000957	
+SEC000958	
+SEC000959	
+SEC000960	
+SEC000961	
+SEC000962	
+SEC000963	
+SEC000964	
+SEC000965	
+SEC000966	
+SEC000967	
+SEC000968	
+SEC000969	no_start_codon|no_stop_codon
+SEC000970	
+SEC000971	
+SEC000972	no_start_codon|no_stop_codon
+SEC000973	
+SEC000974	
+SEC000975	
+SEC000976	no_start_codon
+SEC000977	masked_over_00
+SEC000978	not_multiple_of_3
+SEC000979	
+SEC000980	no_start_codon
+SEC000981	
+SEC000982	
+SEC000983	
+SEC000984	not_multiple_of_3
+SEC000985	
+SEC000986	
+SEC000987	
+SEC000988	not_multiple_of_3
+SEC000989	
+SEC000990	
+SEC000991	
+SEC000992	not_multiple_of_3
+SEC000993	
+SEC000994	
+SEC000995	
+SEC000996	
+SEC000997	
+SEC000998	
+SEC000999	
+SEC001000	
+SEC001001	
+SEC001002	
+SEC001003	
+SEC001004	
+SEC001005	
+SEC001006	
+SEC001007	
+SEC001008	not_multiple_of_3
+SEC001009	
+SEC001010	
+SEC001011	
+SEC001012	
+SEC001013	
+SEC001014	
+SEC001015	not_multiple_of_3
+SEC001016	
+SEC001017	
+SEC001018	not_multiple_of_3
+SEC001019	
+SEC001020	not_multiple_of_3
+SEC001021	
+SEC001022	
+SEC001023	not_multiple_of_3
+SEC001024	
+SEC001025	
+SEC001026	
+SEC001027	
+SEC001028	
+SEC001029	no_stop_codon
+SEC001030	
+SEC001031	
+SEC001032	no_start_codon|no_stop_codon
+SEC001033	no_start_codon|no_stop_codon|not_multiple_of_3
+SEC001034	
+SEC001035	not_multiple_of_3
+SEC001036	
+SEC001037	no_start_codon|no_stop_codon
+SEC001038	
+SEC001039	not_multiple_of_3
+SEC001040	
+SEC001041	no_start_codon|not_multiple_of_3|masked_over_00
+SEC001042	not_multiple_of_3
+SEC001043	no_stop_codon|not_multiple_of_3|masked_over_00
+SEC001044	
+SEC001045	stop_codon_in_cds
+SEC001046	no_stop_codon
+SEC001047	
+SEC001048	
+SEC001049	not_multiple_of_3
+SEC001050	
+SEC001051	
+SEC001052	
+SEC001053	
+SEC001054	not_multiple_of_3
+SEC001055	not_multiple_of_3
+SEC001056	
+SEC001057	no_stop_codon
+SEC001058	
+SEC001059	
+SEC001060	no_stop_codon
+SEC001061	
+SEC001062	not_multiple_of_3
+SEC001063	no_stop_codon
+SEC001064	no_stop_codon
+SEC001065	no_stop_codon|not_multiple_of_3
+SEC001066	stop_codon_in_cds
+SEC001067	stop_codon_in_cds
+SEC001068	
+SEC001069	not_multiple_of_3
+SEC001070	
+SEC001071	
+SEC001072	not_multiple_of_3
+SEC001073	not_multiple_of_3
+SEC001074	
+SEC001075	
+SEC001076	
+SEC001077	
+SEC001078	
+SEC001079	
+SEC001080	
+SEC001081	no_start_codon|not_multiple_of_3
+SEC001082	not_multiple_of_3
+SEC001083	
+SEC001084	
+SEC001085	
+SEC001086	
+SEC001087	
+SEC001088	
+SEC001089	not_multiple_of_3
+SEC001090	
+SEC001091	not_multiple_of_3
+SEC001092	stop_codon_in_cds
+SEC001093	not_multiple_of_3
+SEC001094	not_multiple_of_3
+SEC001095	no_stop_codon
+SEC001096	not_multiple_of_3
+SEC001097	not_multiple_of_3
+SEC001098	no_stop_codon
+SEC001099	
+SEC001100	not_multiple_of_3
+SEC001101	
+SEC001102	
+SEC001103	not_multiple_of_3
+SEC001104	
+SEC001105	stop_codon_in_cds
+SEC001106	
+SEC001107	
+SEC001108	
+SEC001109	
+SEC001110	no_stop_codon|shorter_than_180nt|shorter_than_195nt
+SEC001111	no_stop_codon|not_multiple_of_3|shorter_than_180nt|shorter_than_195nt
+SEC001112	no_start_codon|no_stop_codon|shorter_than_180nt|shorter_than_195nt
+SEC001113	no_start_codon|no_stop_codon|shorter_than_180nt|shorter_than_195nt
+SEC001114	
+SEC001115	
+SEC001116	
+SEC001117	shorter_than_195nt
+SEC001118	
+SEC001119	
+SEC001120	
+SEC001121	
+SEC001122	
+SEC001123	not_multiple_of_3
+SEC001124	
+SEC001125	masked_over_00
+SEC001126	
+SEC001127	
+SEC001128	not_multiple_of_3
+SEC001129	
+SEC001130	not_multiple_of_3
+SEC001131	stop_codon_in_cds
+SEC001132	
+SEC001133	not_multiple_of_3
+SEC001134	
+SEC001135	
+SEC001136	
+SEC001137	no_stop_codon
+SEC001138	
+SEC001139	
+SEC001140	not_multiple_of_3
+SEC001141	not_multiple_of_3
+SEC001142	not_multiple_of_3
+SEC001143	
+SEC001144	not_multiple_of_3
+SEC001145	not_multiple_of_3
+SEC001146	not_multiple_of_3
+SEC001147	not_multiple_of_3
+SEC001148	
+SEC001149	
+SEC001150	no_stop_codon|not_multiple_of_3
+SEC001151	stop_codon_in_cds
+SEC001152	
+SEC001153	
+SEC001154	
+SEC001155	
+SEC001156	
+SEC001157	
+SEC001158	
+SEC001159	
+SEC001160	
+SEC001161	no_stop_codon|shorter_than_180nt|shorter_than_195nt
+SEC001162	no_stop_codon|shorter_than_180nt|shorter_than_195nt
+SEC001163	
+SEC001164	
+SEC001165	
+SEC001166	
+SEC001167	
+SEC001168	
+SEC001169	
+SEC001170	no_start_codon
+SEC001171	no_start_codon|no_stop_codon|shorter_than_150nt|shorter_than_180nt|shorter_than_195nt
+SEC001172	no_start_codon|no_stop_codon|shorter_than_150nt|shorter_than_180nt|shorter_than_195nt
+SEC001173	
+SEC001174	not_multiple_of_3
+SEC001175	
+SEC001176	
+SEC001177	not_multiple_of_3
+SEC001178	no_start_codon|no_stop_codon|not_multiple_of_3|shorter_than_180nt|shorter_than_195nt
+SEC001179	
+SEC001180	
+SEC001181	
+SEC001182	
+SEC001183	masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001184	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001185	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001186	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001187	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001188	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001189	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001190	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001191	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001192	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001193	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001194	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001195	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001196	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001197	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001198	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001199	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001200	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001201	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001202	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001203	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001204	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001205	no_start_codon|no_stop_codon|not_multiple_of_3|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001206	no_start_codon|no_stop_codon|not_multiple_of_3|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001207	no_start_codon|no_stop_codon|not_multiple_of_3|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001208	no_start_codon|no_stop_codon|not_multiple_of_3|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001209	no_start_codon|no_stop_codon|not_multiple_of_3|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001210	no_start_codon|no_stop_codon|stop_codon_in_cds|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001211	no_start_codon|no_stop_codon|not_multiple_of_3|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001212	no_start_codon|no_stop_codon|stop_codon_in_cds|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001213	no_start_codon|no_stop_codon|not_multiple_of_3|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001214	masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001215	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001216	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001217	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001218	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001219	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001220	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001221	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001222	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001223	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001224	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001225	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001226	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001227	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001228	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001229	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001230	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001231	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001232	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001233	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001234	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001235	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001236	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001237	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001238	no_start_codon|no_stop_codon|not_multiple_of_3|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001239	no_start_codon|no_stop_codon|not_multiple_of_3|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001240	no_start_codon|no_stop_codon|not_multiple_of_3|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001241	no_start_codon|no_stop_codon|not_multiple_of_3|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001242	no_start_codon|no_stop_codon|not_multiple_of_3|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001243	no_start_codon|no_stop_codon|not_multiple_of_3|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001244	no_start_codon|no_stop_codon|not_multiple_of_3|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001245	no_stop_codon|not_multiple_of_3|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001246	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001247	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001248	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001249	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001250	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001251	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001252	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001253	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001254	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001255	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001256	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001257	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001258	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001259	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001260	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001261	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001262	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001263	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001264	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001265	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001266	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001267	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001268	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001269	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001270	no_start_codon|not_multiple_of_3|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001271	no_start_codon|no_stop_codon|not_multiple_of_3|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001272	no_start_codon|no_stop_codon|not_multiple_of_3|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001273	no_start_codon|no_stop_codon|not_multiple_of_3|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001274	no_start_codon|no_stop_codon|not_multiple_of_3|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001275	no_start_codon|no_stop_codon|not_multiple_of_3|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001276	
+SEC001277	
+SEC001278	
+SEC001279	
+SEC001280	
+SEC001281	not_multiple_of_3
+SEC001282	
+SEC001283	
+SEC001284	not_multiple_of_3
+SEC001285	not_multiple_of_3
+SEC001286	not_multiple_of_3
+SEC001287	
+SEC001288	not_multiple_of_3
+SEC001289	not_multiple_of_3
+SEC001290	not_multiple_of_3
+SEC001291	
+SEC001292	
+SEC001293	
+SEC001294	
+SEC001295	
+SEC001296	stop_codon_in_cds
+SEC001297	not_multiple_of_3
+SEC001298	not_multiple_of_3
+SEC001299	not_multiple_of_3
+SEC001300	stop_codon_in_cds
+SEC001301	not_multiple_of_3
+SEC001302	not_multiple_of_3
+SEC001303	stop_codon_in_cds
+SEC001304	
+SEC001305	
+SEC001306	stop_codon_in_cds
+SEC001307	
+SEC001308	
+SEC001309	stop_codon_in_cds
+SEC001310	
+SEC001311	
+SEC001312	
+SEC001313	
+SEC001314	
+SEC001315	
+SEC001316	not_multiple_of_3
+SEC001317	
+SEC001318	
+SEC001319	
+SEC001320	
+SEC001321	
+SEC001322	not_multiple_of_3
+SEC001323	
+SEC001324	not_multiple_of_3
+SEC001325	
+SEC001326	
+SEC001327	not_multiple_of_3
+SEC001328	
+SEC001329	
+SEC001330	
+SEC001331	
+SEC001332	
+SEC001333	no_start_codon
+SEC001334	not_multiple_of_3
+SEC001335	
+SEC001336	no_stop_codon|not_multiple_of_3|masked_over_00
+SEC001337	not_multiple_of_3
+SEC001338	
+SEC001339	
+SEC001340	not_multiple_of_3
+SEC001341	masked_over_00
+SEC001342	not_multiple_of_3
+SEC001343	no_stop_codon
+SEC001344	masked_over_00
+SEC001345	not_multiple_of_3
+SEC001346	no_stop_codon
+SEC001347	
+SEC001348	
+SEC001349	not_multiple_of_3
+SEC001350	
+SEC001351	
+SEC001352	
+SEC001353	
+SEC001354	
+SEC001355	
+SEC001356	
+SEC001357	
+SEC001358	
+SEC001359	
+SEC001360	
+SEC001361	
+SEC001362	
+SEC001363	not_multiple_of_3
+SEC001364	not_multiple_of_3
+SEC001365	
+SEC001366	not_multiple_of_3
+SEC001367	
+SEC001368	not_multiple_of_3
+SEC001369	not_multiple_of_3
+SEC001370	
+SEC001371	
+SEC001372	
+SEC001373	no_stop_codon
+SEC001374	no_start_codon
+SEC001375	not_multiple_of_3
+SEC001376	no_start_codon
+SEC001377	
+SEC001378	
+SEC001379	
+SEC001380	
+SEC001381	not_multiple_of_3
+SEC001382	
+SEC001383	
+SEC001384	
+SEC001385	
+SEC001386	not_multiple_of_3
+SEC001387	not_multiple_of_3
+SEC001388	no_stop_codon
+SEC001389	
+SEC001390	
+SEC001391	
+SEC001392	no_stop_codon
+SEC001393	
+SEC001394	no_stop_codon
+SEC001395	
+SEC001396	
+SEC001397	
+SEC001398	no_start_codon|no_stop_codon
+SEC001399	
+SEC001400	
+SEC001401	not_multiple_of_3
+SEC001402	
+SEC001403	
+SEC001404	
+SEC001405	
+SEC001406	
+SEC001407	
+SEC001408	
+SEC001409	
+SEC001410	
+SEC001411	
+SEC001412	
+SEC001413	
+SEC001414	
+SEC001415	
+SEC001416	
+SEC001417	
+SEC001418	
+SEC001419	
+SEC001420	masked_over_00
+SEC001421	stop_codon_in_cds
+SEC001422	not_multiple_of_3
+SEC001423	no_stop_codon|not_multiple_of_3
+SEC001424	stop_codon_in_cds
+SEC001425	
+SEC001426	
+SEC001427	not_multiple_of_3
+SEC001428	
+SEC001429	not_multiple_of_3
+SEC001430	
+SEC001431	no_stop_codon|not_multiple_of_3
+SEC001432	
+SEC001433	not_multiple_of_3
+SEC001434	
+SEC001435	not_multiple_of_3
+SEC001436	
+SEC001437	
+SEC001438	not_multiple_of_3
+SEC001439	not_multiple_of_3
+SEC001440	
+SEC001441	
+SEC001442	
+SEC001443	
+SEC001444	
+SEC001445	not_multiple_of_3
+SEC001446	
+SEC001447	not_multiple_of_3
+SEC001448	
+SEC001449	
+SEC001450	
+SEC001451	
+SEC001452	
+SEC001453	no_stop_codon
+SEC001454	
+SEC001455	no_stop_codon
+SEC001456	
+SEC001457	no_start_codon
+SEC001458	not_multiple_of_3
+SEC001459	
+SEC001460	
+SEC001461	
+SEC001462	
+SEC001463	
+SEC001464	
+SEC001465	
+SEC001466	not_multiple_of_3
+SEC001467	
+SEC001468	
+SEC001469	
+SEC001470	
+SEC001471	not_multiple_of_3
+SEC001472	
+SEC001473	
+SEC001474	not_multiple_of_3
+SEC001475	no_stop_codon|shorter_than_180nt|shorter_than_195nt
+SEC001476	
+SEC001477	
+SEC001478	
+SEC001479	
+SEC001480	
+SEC001481	
+SEC001482	
+SEC001483	
+SEC001484	
+SEC001485	
+SEC001486	
+SEC001487	shorter_than_180nt|shorter_than_195nt
+SEC001488	no_stop_codon|shorter_than_150nt|shorter_than_180nt|shorter_than_195nt
+SEC001489	no_stop_codon
+SEC001490	no_stop_codon
+SEC001491	
+SEC001492	not_multiple_of_3
+SEC001493	
+SEC001494	
+SEC001495	
+SEC001496	
+SEC001497	masked_over_00|masked_over_10|masked_over_25
+SEC001498	not_multiple_of_3
+SEC001499	
+SEC001500	
+SEC001501	not_multiple_of_3
+SEC001502	
+SEC001503	
+SEC001504	no_stop_codon
+SEC001505	not_multiple_of_3
+SEC001506	not_multiple_of_3
+SEC001507	
+SEC001508	
+SEC001509	not_multiple_of_3
+SEC001510	
+SEC001511	no_stop_codon
+SEC001512	
+SEC001513	
+SEC001514	
+SEC001515	
+SEC001516	not_multiple_of_3
+SEC001517	not_multiple_of_3
+SEC001518	
+SEC001519	
+SEC001520	not_multiple_of_3
+SEC001521	
+SEC001522	
+SEC001523	
+SEC001524	not_multiple_of_3
+SEC001525	
+SEC001526	not_multiple_of_3
+SEC001527	
+SEC001528	
+SEC001529	no_start_codon
+SEC001530	
+SEC001531	not_multiple_of_3
+SEC001532	
+SEC001533	
+SEC001534	
+SEC001535	
+SEC001536	
+SEC001537	
+SEC001538	no_start_codon
+SEC001539	
+SEC001540	
+SEC001541	
+SEC001542	
+SEC001543	
+SEC001544	not_multiple_of_3
+SEC001545	
+SEC001546	not_multiple_of_3
+SEC001547	
+SEC001548	
+SEC001549	
+SEC001550	
+SEC001551	not_multiple_of_3
+SEC001552	no_start_codon|no_stop_codon
+SEC001553	no_start_codon|no_stop_codon|shorter_than_180nt|shorter_than_195nt
+SEC001554	
+SEC001555	
+SEC001556	
+SEC001557	
+SEC001558	
+SEC001559	
+SEC001560	
+SEC001561	
+SEC001562	
+SEC001563	
+SEC001564	
+SEC001565	
+SEC001566	
+SEC001567	shorter_than_180nt|shorter_than_195nt
+SEC001568	
+SEC001569	not_multiple_of_3
+SEC001570	
+SEC001571	
+SEC001572	
+SEC001573	no_start_codon|no_stop_codon
+SEC001574	not_multiple_of_3
+SEC001575	
+SEC001576	stop_codon_in_cds
+SEC001577	
+SEC001578	shorter_than_180nt|shorter_than_195nt
+SEC001579	
+SEC001580	
+SEC001581	
+SEC001582	
+SEC001583	
+SEC001584	
+SEC001585	masked_over_00
+SEC001586	
+SEC001587	
+SEC001588	not_multiple_of_3|shorter_than_195nt
+SEC001589	
+SEC001590	
+SEC001591	
+SEC001592	
+SEC001593	
+SEC001594	
+SEC001595	not_multiple_of_3
+SEC001596	
+SEC001597	
+SEC001598	not_multiple_of_3
+SEC001599	
+SEC001600	
+SEC001601	no_start_codon|no_stop_codon
+SEC001602	
+SEC001603	not_multiple_of_3
+SEC001604	
+SEC001605	
+SEC001606	not_multiple_of_3
+SEC001607	
+SEC001608	
+SEC001609	
+SEC001610	no_start_codon|not_multiple_of_3
+SEC001611	
+SEC001612	
+SEC001613	
+SEC001614	
+SEC001615	
+SEC001616	no_start_codon
+SEC001617	not_multiple_of_3
+SEC001618	
+SEC001619	
+SEC001620	
+SEC001621	
+SEC001622	
+SEC001623	
+SEC001624	
+SEC001625	
+SEC001626	
+SEC001627	
+SEC001628	
+SEC001629	no_start_codon|not_multiple_of_3
+SEC001630	
+SEC001631	masked_over_00
+SEC001632	shorter_than_195nt
+SEC001633	
+SEC001634	
+SEC001635	not_multiple_of_3
+SEC001636	
+SEC001637	
+SEC001638	
+SEC001639	not_multiple_of_3
+SEC001640	shorter_than_150nt|shorter_than_180nt|shorter_than_195nt
+SEC001641	shorter_than_180nt|shorter_than_195nt
+SEC001642	no_stop_codon|shorter_than_195nt
+SEC001643	
+SEC001644	not_multiple_of_3
+SEC001645	
+SEC001646	not_multiple_of_3
+SEC001647	
+SEC001648	not_multiple_of_3
+SEC001649	
+SEC001650	
+SEC001651	
+SEC001652	shorter_than_180nt|shorter_than_195nt
+SEC001653	
+SEC001654	
+SEC001655	
+SEC001656	not_multiple_of_3
+SEC001657	
+SEC001658	
+SEC001659	
+SEC001660	no_start_codon
+SEC001661	no_start_codon
+SEC001662	
+SEC001663	masked_over_00|masked_over_10|masked_over_25
+SEC001664	
+SEC001665	
+SEC001666	
+SEC001667	
+SEC001668	not_multiple_of_3
+SEC001669	not_multiple_of_3
+SEC001670	
+SEC001671	
+SEC001672	
+SEC001673	
+SEC001674	
+SEC001675	
+SEC001676	masked_over_00
+SEC001677	
+SEC001678	shorter_than_180nt|shorter_than_195nt
+SEC001679	
+SEC001680	
+SEC001681	
+SEC001682	
+SEC001683	not_multiple_of_3
+SEC001684	
+SEC001685	not_multiple_of_3
+SEC001686	
+SEC001687	
+SEC001688	
+SEC001689	
+SEC001690	
+SEC001691	
+SEC001692	not_multiple_of_3
+SEC001693	no_start_codon
+SEC001694	no_start_codon
+SEC001695	no_start_codon|not_multiple_of_3
+SEC001696	no_start_codon|not_multiple_of_3
+SEC001697	no_start_codon|no_stop_codon|masked_over_00
+SEC001698	
+SEC001699	
+SEC001700	
+SEC001701	no_stop_codon
+SEC001702	no_start_codon
+SEC001703	
+SEC001704	
+SEC001705	
+SEC001706	
+SEC001707	
+SEC001708	
+SEC001709	not_multiple_of_3
+SEC001710	no_stop_codon|shorter_than_180nt|shorter_than_195nt
+SEC001711	not_multiple_of_3
+SEC001712	
+SEC001713	
+SEC001714	
+SEC001715	
+SEC001716	
+SEC001717	
+SEC001718	not_multiple_of_3
+SEC001719	
+SEC001720	
+SEC001721	not_multiple_of_3
+SEC001722	
+SEC001723	
+SEC001724	not_multiple_of_3
+SEC001725	not_multiple_of_3
+SEC001726	
+SEC001727	
+SEC001728	
+SEC001729	
+SEC001730	not_multiple_of_3
+SEC001731	
+SEC001732	
+SEC001733	stop_codon_in_cds
+SEC001734	
+SEC001735	
+SEC001736	shorter_than_180nt|shorter_than_195nt
+SEC001737	not_multiple_of_3
+SEC001738	
+SEC001739	
+SEC001740	
+SEC001741	not_multiple_of_3
+SEC001742	not_multiple_of_3
+SEC001743	not_multiple_of_3
+SEC001744	
+SEC001745	
+SEC001746	
+SEC001747	no_stop_codon|masked_over_00|masked_over_10
+SEC001748	stop_codon_in_cds
+SEC001749	
+SEC001750	
+SEC001751	masked_over_00
+SEC001752	
+SEC001753	
+SEC001754	not_multiple_of_3
+SEC001755	
+SEC001756	
+SEC001757	
+SEC001758	
+SEC001759	
+SEC001760	
+SEC001761	not_multiple_of_3
+SEC001762	
+SEC001763	
+SEC001764	not_multiple_of_3
+SEC001765	
+SEC001766	
+SEC001767	not_multiple_of_3
+SEC001768	
+SEC001769	not_multiple_of_3|masked_over_00
+SEC001770	
+SEC001771	shorter_than_180nt|shorter_than_195nt
+SEC001772	masked_over_00
+SEC001773	
+SEC001774	
+SEC001775	
+SEC001776	
+SEC001777	
+SEC001778	not_multiple_of_3
+SEC001779	
+SEC001780	not_multiple_of_3
+SEC001781	
+SEC001782	
+SEC001783	
+SEC001784	no_stop_codon
+SEC001785	
+SEC001786	
+SEC001787	
+SEC001788	not_multiple_of_3
+SEC001789	not_multiple_of_3
+SEC001790	
+SEC001791	
+SEC001792	
+SEC001793	
+SEC001794	
+SEC001795	
+SEC001796	
+SEC001797	
+SEC001798	not_multiple_of_3
+SEC001799	
+SEC001800	
+SEC001801	
+SEC001802	
+SEC001803	
+SEC001804	
+SEC001805	
+SEC001806	
+SEC001807	
+SEC001808	not_multiple_of_3
+SEC001809	
+SEC001810	
+SEC001811	
+SEC001812	
+SEC001813	
+SEC001814	
+SEC001815	
+SEC001816	
+SEC001817	
+SEC001818	
+SEC001819	
+SEC001820	shorter_than_180nt|shorter_than_195nt
+SEC001821	shorter_than_180nt|shorter_than_195nt
+SEC001822	
+SEC001823	
+SEC001824	
+SEC001825	not_multiple_of_3
+SEC001826	
+SEC001827	
+SEC001828	
+SEC001829	
+SEC001830	
+SEC001831	
+SEC001832	
+SEC001833	
+SEC001834	
+SEC001835	
+SEC001836	not_multiple_of_3
+SEC001837	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001838	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50|shorter_than_180nt|shorter_than_195nt
+SEC001839	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50|shorter_than_180nt|shorter_than_195nt
+SEC001840	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50|shorter_than_180nt|shorter_than_195nt
+SEC001841	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50|shorter_than_180nt|shorter_than_195nt
+SEC001842	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50|shorter_than_180nt|shorter_than_195nt
+SEC001843	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50|shorter_than_180nt|shorter_than_195nt
+SEC001844	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50|shorter_than_180nt|shorter_than_195nt
+SEC001845	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50|shorter_than_180nt|shorter_than_195nt
+SEC001846	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50|shorter_than_180nt|shorter_than_195nt
+SEC001847	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50|shorter_than_180nt|shorter_than_195nt
+SEC001848	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50|shorter_than_180nt|shorter_than_195nt
+SEC001849	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50|shorter_than_180nt|shorter_than_195nt
+SEC001850	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50|shorter_than_180nt|shorter_than_195nt
+SEC001851	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50|shorter_than_180nt|shorter_than_195nt
+SEC001852	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50|shorter_than_180nt|shorter_than_195nt
+SEC001853	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50|shorter_than_180nt|shorter_than_195nt
+SEC001854	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50|shorter_than_180nt|shorter_than_195nt
+SEC001855	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50|shorter_than_180nt|shorter_than_195nt
+SEC001856	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50|shorter_than_180nt|shorter_than_195nt
+SEC001857	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50|shorter_than_180nt|shorter_than_195nt
+SEC001858	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50|shorter_than_180nt|shorter_than_195nt
+SEC001859	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50|shorter_than_180nt|shorter_than_195nt
+SEC001860	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50|shorter_than_180nt|shorter_than_195nt
+SEC001861	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50|shorter_than_180nt|shorter_than_195nt
+SEC001862	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50|shorter_than_180nt|shorter_than_195nt
+SEC001863	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50|shorter_than_180nt|shorter_than_195nt
+SEC001864	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50|shorter_than_180nt|shorter_than_195nt
+SEC001865	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50|shorter_than_180nt|shorter_than_195nt
+SEC001866	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50|shorter_than_180nt|shorter_than_195nt
+SEC001867	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50|shorter_than_180nt|shorter_than_195nt
+SEC001868	
+SEC001869	
+SEC001870	
+SEC001871	not_multiple_of_3
+SEC001872	
+SEC001873	
+SEC001874	
+SEC001875	
+SEC001876	not_multiple_of_3
+SEC001877	
+SEC001878	not_multiple_of_3|masked_over_00|masked_over_10|masked_over_25
+SEC001879	
+SEC001880	
+SEC001881	
+SEC001882	
+SEC001883	
+SEC001884	not_multiple_of_3
+SEC001885	
+SEC001886	
+SEC001887	no_start_codon
+SEC001888	
+SEC001889	
+SEC001890	
+SEC001891	no_start_codon|no_stop_codon|not_multiple_of_3
+SEC001892	
+SEC001893	
+SEC001894	
+SEC001895	
+SEC001896	
+SEC001897	not_multiple_of_3
+SEC001898	
+SEC001899	not_multiple_of_3
+SEC001900	
+SEC001901	
+SEC001902	
+SEC001903	not_multiple_of_3
+SEC001904	
+SEC001905	
+SEC001906	not_multiple_of_3
+SEC001907	
+SEC001908	
+SEC001909	not_multiple_of_3
+SEC001910	
+SEC001911	
+SEC001912	
+SEC001913	not_multiple_of_3
+SEC001914	not_multiple_of_3
+SEC001915	
+SEC001916	not_multiple_of_3
+SEC001917	shorter_than_180nt|shorter_than_195nt
+SEC001918	
+SEC001919	
+SEC001920	
+SEC001921	
+SEC001922	
+SEC001923	not_multiple_of_3
+SEC001924	
+SEC001925	
+SEC001926	
+SEC001927	shorter_than_180nt|shorter_than_195nt
+SEC001928	
+SEC001929	
+SEC001930	not_multiple_of_3
+SEC001931	no_stop_codon|shorter_than_180nt|shorter_than_195nt
+SEC001932	no_start_codon|no_stop_codon|shorter_than_180nt|shorter_than_195nt
+SEC001933	no_start_codon|no_stop_codon|not_multiple_of_3|shorter_than_180nt|shorter_than_195nt
+SEC001934	no_start_codon|no_stop_codon|not_multiple_of_3|shorter_than_180nt|shorter_than_195nt
+SEC001935	not_multiple_of_3
+SEC001936	masked_over_00
+SEC001937	
+SEC001938	not_multiple_of_3
+SEC001939	
+SEC001940	
+SEC001941	
+SEC001942	
+SEC001943	
+SEC001944	
+SEC001945	
+SEC001946	
+SEC001947	not_multiple_of_3
+SEC001948	shorter_than_180nt|shorter_than_195nt
+SEC001949	shorter_than_180nt|shorter_than_195nt
+SEC001950	no_stop_codon|masked_over_00
+SEC001951	
+SEC001952	
+SEC001953	no_start_codon
+SEC001954	
+SEC001955	
+SEC001956	
+SEC001957	no_start_codon
+SEC001958	
+SEC001959	
+SEC001960	
+SEC001961	
+SEC001962	
+SEC001963	
+SEC001964	not_multiple_of_3
+SEC001965	
+SEC001966	
+SEC001967	
+SEC001968	
+SEC001969	no_stop_codon
+SEC001970	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001971	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001972	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001973	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001974	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001975	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001976	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001977	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001978	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001979	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001980	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001981	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001982	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001983	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001984	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001985	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001986	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001987	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001988	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001989	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001990	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001991	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001992	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001993	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001994	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001995	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001996	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001997	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC001998	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50|shorter_than_180nt|shorter_than_195nt
+SEC001999	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC002000	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC002001	no_start_codon|no_stop_codon|shorter_than_180nt|shorter_than_195nt
+SEC002002	
+SEC002003	
+SEC002004	
+SEC002005	no_stop_codon
+SEC002006	no_stop_codon|shorter_than_180nt|shorter_than_195nt
+SEC002007	not_multiple_of_3
+SEC002008	
+SEC002009	not_multiple_of_3
+SEC002010	not_multiple_of_3
+SEC002011	
+SEC002012	not_multiple_of_3
+SEC002013	
+SEC002014	no_start_codon
+SEC002015	
+SEC002016	no_start_codon|not_multiple_of_3
+SEC002017	
+SEC002018	no_stop_codon
+SEC002019	not_multiple_of_3
+SEC002020	not_multiple_of_3
+SEC002021	
+SEC002022	
+SEC002023	
+SEC002024	
+SEC002025	
+SEC002026	
+SEC002027	
+SEC002028	not_multiple_of_3
+SEC002029	
+SEC002030	
+SEC002031	shorter_than_195nt
+SEC002032	
+SEC002033	shorter_than_180nt|shorter_than_195nt
+SEC002034	
+SEC002035	
+SEC002036	
+SEC002037	
+SEC002038	not_multiple_of_3
+SEC002039	no_stop_codon|stop_codon_in_cds
+SEC002040	no_stop_codon|not_multiple_of_3
+SEC002041	no_stop_codon|stop_codon_in_cds
+SEC002042	no_stop_codon|not_multiple_of_3
+SEC002043	not_multiple_of_3
+SEC002044	
+SEC002045	
+SEC002046	
+SEC002047	
+SEC002048	
+SEC002049	
+SEC002050	not_multiple_of_3|masked_over_00|masked_over_10|masked_over_25|shorter_than_180nt|shorter_than_195nt
+SEC002051	
+SEC002052	
+SEC002053	
+SEC002054	
+SEC002055	not_multiple_of_3
+SEC002056	
+SEC002057	not_multiple_of_3
+SEC002058	
+SEC002059	
+SEC002060	
+SEC002061	
+SEC002062	
+SEC002063	
+SEC002064	
+SEC002065	
+SEC002066	
+SEC002067	
+SEC002068	not_multiple_of_3
+SEC002069	
+SEC002070	no_start_codon
+SEC002071	not_multiple_of_3
+SEC002072	not_multiple_of_3
+SEC002073	
+SEC002074	
+SEC002075	
+SEC002076	
+SEC002077	
+SEC002078	
+SEC002079	
+SEC002080	
+SEC002081	
+SEC002082	not_multiple_of_3
+SEC002083	no_stop_codon
+SEC002084	not_multiple_of_3
+SEC002085	
+SEC002086	
+SEC002087	
+SEC002088	
+SEC002089	not_multiple_of_3
+SEC002090	masked_over_00|masked_over_10
+SEC002091	
+SEC002092	
+SEC002093	
+SEC002094	
+SEC002095	
+SEC002096	
+SEC002097	
+SEC002098	
+SEC002099	
+SEC002100	
+SEC002101	not_multiple_of_3
+SEC002102	
+SEC002103	no_start_codon
+SEC002104	no_start_codon
+SEC002105	
+SEC002106	
+SEC002107	not_multiple_of_3
+SEC002108	no_stop_codon
+SEC002109	masked_over_00
+SEC002110	
+SEC002111	
+SEC002112	
+SEC002113	
+SEC002114	
+SEC002115	
+SEC002116	
+SEC002117	
+SEC002118	
+SEC002119	stop_codon_in_cds
+SEC002120	
+SEC002121	not_multiple_of_3
+SEC002122	
+SEC002123	
+SEC002124	
+SEC002125	shorter_than_180nt|shorter_than_195nt
+SEC002126	
+SEC002127	no_stop_codon
+SEC002128	
+SEC002129	not_multiple_of_3
+SEC002130	not_multiple_of_3
+SEC002131	
+SEC002132	not_multiple_of_3
+SEC002133	
+SEC002134	
+SEC002135	
+SEC002136	
+SEC002137	not_multiple_of_3
+SEC002138	
+SEC002139	shorter_than_180nt|shorter_than_195nt
+SEC002140	
+SEC002141	
+SEC002142	
+SEC002143	
+SEC002144	no_stop_codon
+SEC002145	not_multiple_of_3
+SEC002146	
+SEC002147	
+SEC002148	not_multiple_of_3
+SEC002149	not_multiple_of_3
+SEC002150	stop_codon_in_cds
+SEC002151	no_start_codon
+SEC002152	
+SEC002153	not_multiple_of_3
+SEC002154	no_start_codon
+SEC002155	no_start_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC002156	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC002157	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC002158	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC002159	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC002160	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC002161	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC002162	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC002163	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC002164	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC002165	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC002166	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC002167	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC002168	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC002169	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC002170	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC002171	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC002172	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC002173	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC002174	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC002175	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC002176	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC002177	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC002178	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC002179	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC002180	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC002181	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC002182	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC002183	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC002184	no_start_codon|no_stop_codon|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC002185	no_start_codon|no_stop_codon|not_multiple_of_3|masked_over_00|masked_over_10|masked_over_25|masked_over_50
+SEC002186	
+SEC002187	
+SEC002188	
+SEC002189	
+SEC002190	
+SEC002191	
+SEC002192	
+SEC002193	not_multiple_of_3
+SEC002194	
+SEC002195	no_start_codon|shorter_than_195nt
+SEC002196	not_multiple_of_3
+SEC002197	
+SEC002198	
+SEC002199	
+SEC002200	
+SEC002201	not_multiple_of_3
+SEC002202	not_multiple_of_3
+SEC002203	not_multiple_of_3
+SEC002204	
+SEC002205	
+SEC002206	
+SEC002207	
+SEC002208	
+SEC002209	
+SEC002210	
+SEC002211	
+SEC002212	no_start_codon|shorter_than_195nt
+SEC002213	
+SEC002214	
+SEC002215	not_multiple_of_3
+SEC002216	not_multiple_of_3
+SEC002217	
+SEC002218	not_multiple_of_3
+SEC002219	not_multiple_of_3
+SEC002220	
+SEC002221	not_multiple_of_3
+SEC002222	
+SEC002223	
+SEC002224	not_multiple_of_3
+SEC002225	
+SEC002226	
+SEC002227	
+SEC002228	no_stop_codon|not_multiple_of_3
+SEC002229	shorter_than_180nt|shorter_than_195nt
+SEC002230	
+SEC002231	
+SEC002232	
+SEC002233	
+SEC002234	
+SEC002235	
+SEC002236	
+SEC002237	
+SEC002238	
+SEC002239	
+SEC002240	
+SEC002241	not_multiple_of_3
+SEC002242	
+SEC002243	
+SEC002244	
+SEC002245	
+SEC002246	
+SEC002247	
+SEC002248	
+SEC002249	
+SEC002250	
+SEC002251	
+SEC002252	
+SEC002253	
+SEC002254	
+SEC002255	
+SEC002256	
+SEC002257	
+SEC002258	not_multiple_of_3
+SEC002259	
+SEC002260	
+SEC002261	not_multiple_of_3
+SEC002262	
+SEC002263	
+SEC002264	
+SEC002265	
+SEC002266	
+SEC002267	
+SEC002268	
+SEC002269	
+SEC002270	
+SEC002271	no_stop_codon
+SEC002272	
+SEC002273	
+SEC002274	
+SEC002275	
+SEC002276	not_multiple_of_3
+SEC002277	not_multiple_of_3
+SEC002278	
+SEC002279	
+SEC002280	
+SEC002281	
+SEC002282	
+SEC002283	
+SEC002284	not_multiple_of_3
+SEC002285	
+SEC002286	
+SEC002287	no_start_codon|no_stop_codon|not_multiple_of_3
+SEC002288	
+SEC002289	
+SEC002290	
+SEC002291	
+SEC002292	
+SEC002293	
+SEC002294	not_multiple_of_3
+SEC002295	shorter_than_180nt|shorter_than_195nt
+SEC002296	
+SEC002297	masked_over_00
+SEC002298	
+SEC002299	
+SEC002300	not_multiple_of_3
+SEC002301	
+SEC002302	not_multiple_of_3
+SEC002303	
+SEC002304	no_stop_codon
+SEC002305	
+SEC002306	
+SEC002307	no_stop_codon|not_multiple_of_3
+SEC002308	no_stop_codon|not_multiple_of_3
+SEC002309	
+SEC002310	
+SEC002311	masked_over_00|masked_over_10|masked_over_25
+SEC002312	
+SEC002313	
+SEC002314	
+SEC002315	not_multiple_of_3
+SEC002316	shorter_than_180nt|shorter_than_195nt
+SEC002317	
+SEC002318	shorter_than_180nt|shorter_than_195nt
+SEC002319	not_multiple_of_3
+SEC002320	
+SEC002321	
+SEC002322	
+SEC002323	
+SEC002324	
+SEC002325	
+SEC002326	not_multiple_of_3
+SEC002327	
+SEC002328	
+SEC002329	
+SEC002330	not_multiple_of_3
+SEC002331	
+SEC002332	masked_over_00|masked_over_10
+SEC002333	no_stop_codon
+SEC002334	no_stop_codon
+SEC002335	
+SEC002336	not_multiple_of_3
+SEC002337	shorter_than_180nt|shorter_than_195nt
+SEC002338	
+SEC002339	not_multiple_of_3
+SEC002340	not_multiple_of_3
+SEC002341	
+SEC002342	
+SEC002343	no_start_codon|no_stop_codon|not_multiple_of_3
+SEC002344	not_multiple_of_3
+SEC002345	
+SEC002346	
+SEC002347	
+SEC002348	
+SEC002349	not_multiple_of_3
+SEC002350	shorter_than_180nt|shorter_than_195nt
+SEC002351	
+SEC002352	
+SEC002353	
+SEC002354	
+SEC002355	
+SEC002356	
+SEC002357	
+SEC002358	no_start_codon|shorter_than_195nt
+SEC002359	
+SEC002360	
+SEC002361	
+SEC002362	
+SEC002363	not_multiple_of_3
+SEC002364	
+SEC002365	masked_over_00|masked_over_10|masked_over_25
+SEC002366	
+SEC002367	
+SEC002368	not_multiple_of_3
+SEC002369	
+SEC002370	
+SEC002371	no_stop_codon|shorter_than_180nt|shorter_than_195nt
+SEC002372	
+SEC002373	
+SEC002374	
+SEC002375	not_multiple_of_3
+SEC002376	not_multiple_of_3
+SEC002377	
+SEC002378	
+SEC002379	
+SEC002380	
+SEC002381	not_multiple_of_3|shorter_than_180nt|shorter_than_195nt
+SEC002382	
+SEC002383	
+SEC002384	masked_over_00|masked_over_10
+SEC002385	shorter_than_180nt|shorter_than_195nt
+SEC002386	
+SEC002387	
+SEC002388	not_multiple_of_3
+SEC002389	stop_codon_in_cds
+SEC002390	
+SEC002391	
+SEC002392	
+SEC002393	
+SEC002394	no_stop_codon
+SEC002395	not_multiple_of_3
+SEC002396	
+SEC002397	
+SEC002398	
+SEC002399	
+SEC002400	
+SEC002401	not_multiple_of_3
