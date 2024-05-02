@@ -3,7 +3,7 @@
 ### Table of contents
 
 1. [Annotate effectors using miniprot](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024?tab=readme-ov-file#1-annotate-effectors-using-miniprot)
-
+2. [Filter and merge gene models]()
 
 
 
@@ -53,11 +53,37 @@ grep -v "##PAF" > Br62.miniprot.gff3
 - [effector_dataset.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/1_effector_dataset/effector_dataset.fa): Merged effector dataset
 
 **Output files:**
-- [AG006.miniprot.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/3_miniprot_results/AG006.miniprot.gff3)
-- [Br62.miniprot.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/3_miniprot_results/Br62.miniprot.gff3)
+- [AG006.miniprot.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/3_miniprot_annotation/AG006.miniprot.gff3)
+- [Br62.miniprot.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/3_miniprot_annotation/Br62.miniprot.gff3)
 
+## 2. Filter and merge gene models
 
+We extracted CDS from both BRAKER and miniprot annotations using gffread.
 
+```bash
+gffread -g AG006.fa -x AG006.cds.fa AG006.gff3
+gffread -g AG006.fa -x AG006.miniprot.cds.fa AG006.miniprot.gff3
+gffread -g Br62.fa -x Br62.cds.fa Br62.gff3
+gffread -g Br62.fa -x Br62.miniprot.cds.fa Br62.miniprot.gff3
+```
+
+***Input files:*
+- [AG006.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/2_genomes/AG006.fa): *M. oryzae* AG006 genome
+- [Br62.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/2_genomes/Br62.fa): *M. oryzae* Br62 genome
+- [AG006.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/4_BRAKER_annotation/AG006.gff3): BRAKER annotation of AG006
+- [Br62.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/4_BRAKER_annotation/Br62.gff3): BRAKER annotation of Br62
+- [AG006.miniprot.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/3_miniprot_annotation/AG006.miniprot.gff3): miniprot annotation of AG006
+- [Br62.miniprot.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/3_miniprot_annotation/Br62.miniprot.gff3): miniprot annotation of Br62
+
+**Output files:**
+- [AG006.cds.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/4_BRAKER_annotation/AG006.cds.fa): CDS extracted from BRAKER annotation of AG006
+- [Br62.cds.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/4_BRAKER_annotation/Br62.cds.fa): CDS extracted from BRAKER annotation of Br62
+- [AG006.miniprot.cds.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/3_miniprot_annotation/AG006.miniprot.cds.fa): CDS extracted from miniprot annotation of AG006
+- [Br62.miniprot.cds.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/3_miniprot_annotation/Br62.miniprot.cds.fa): CDS extracted from miniprot annotation of Br62
+
+Using `gff_qc.py`, we added new columns to the GFF files to filter out gene models that lacked complete codons, contained a premature stop codon within the CDS, did not start with a start codon, or were shorter than 150 bases.
+
+```bash
 
 
 
@@ -65,3 +91,4 @@ grep -v "##PAF" > Br62.miniprot.gff3
 | Program    | Version    |
 | ---------- | ---------- |
 | *miniprot* | v0.13-r248 |
+| *gffread*  | v0.12.7    |
