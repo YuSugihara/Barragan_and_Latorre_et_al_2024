@@ -5,6 +5,8 @@
 1. [Annotate effectors using miniprot](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024?tab=readme-ov-file#1-annotate-effectors-using-miniprot)
 
 
+
+
 ## 1. Annotate effectors using miniprot
 To complement the effector annotation of BRAKER, we used miniprot and aligned two effector datasets ([Petit-Houdenot et al., 2020](https://doi.org/10.1094/MPMI-03-20-0052-A); [Yan et al., 2023](https://doi.org/10.1093/plcell/koad036)) to [AG006 and Br62 genomes](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/tree/main/2_genomes).
 
@@ -51,8 +53,11 @@ grep -v "##PAF" > Br62.miniprot.gff3
 - [effector_dataset.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/1_effector_dataset/effector_dataset.fa): Merged effector dataset
 
 **Output files:**
-- [AG006.miniprot.gff3]()
-- [Br62.miniprot.gff3]()
+- [AG006.miniprot.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/3_miniprot_results/AG006.miniprot.gff3)
+- [Br62.miniprot.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/3_miniprot_results/Br62.miniprot.gff3)
+
+
+
 
 
 
