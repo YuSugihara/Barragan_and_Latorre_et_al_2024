@@ -3,7 +3,8 @@
 ### Table of contents
 
 1. [Annotate effectors using miniprot](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024?tab=readme-ov-file#1-annotate-effectors-using-miniprot)
-2. [Filter and merge gene models]()
+2. [Filter and merge gene models](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/tree/main#2-filter-and-merge-gene-models)
+
 
 
 
@@ -81,10 +82,32 @@ gffread -g Br62.fa -x Br62.miniprot.cds.fa Br62.miniprot.gff3
 - [AG006.miniprot.cds.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/3_miniprot_annotation/AG006.miniprot.cds.fa): CDS extracted from miniprot annotation of AG006
 - [Br62.miniprot.cds.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/3_miniprot_annotation/Br62.miniprot.cds.fa): CDS extracted from miniprot annotation of Br62
 
-Using `gff_qc.py`, we added new columns to the GFF files to filter out gene models that lacked complete codons, contained a premature stop codon within the CDS, did not start with a start codon, or were shorter than 150 bases.
+Using [gff_qc.py](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/gff_qc.py), we added new columns to the GFF files to annotate gene models that lacked complete codons, contained a premature stop codon within the CDS, did not start with a start codon, or were shorter than 150 bases.
 
 ```bash
+# Usage:
+# gff_qc.py <input_GFF3> \
+#           <input_CDS_FASTA> \
+#           <min_nt_length_check_points> \
+#           <repeat_masking_%_check_points> \
+#           1> <GFF3_with_new_annotation_columns> \
+#           2> <list_of_annotations>
 
+
+gff_qc.py AG006.miniprot.gff3 \
+          AG006.miniprot.cds.fa \
+          150,180,195 \
+          10,25,50 \
+          1> AG006.miniprot_qc.gff3 \
+          2> AG006.miniprot_qc.txt
+
+gff_qc.py Br62.miniprot.gff3 \
+          Br62.miniprot.cds.fa \
+          150,180,195 \
+          10,25,50 \
+          1> Br62.miniprot_qc.gff3 \
+          2> Br62.miniprot_qc.txt
+```
 
 
 
@@ -92,3 +115,6 @@ Using `gff_qc.py`, we added new columns to the GFF files to filter out gene mode
 | ---------- | ---------- |
 | *miniprot* | v0.13-r248 |
 | *gffread*  | v0.12.7    |
+| *python*   | v3.10.14   |
+| *biopyhon* | v1.83      |
+| *pandas*   | v2.2.1     |
