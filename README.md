@@ -2,10 +2,12 @@
 
 ### Table of contents
 
-1. [Complement effector annotations using miniprot](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024?tab=readme-ov-file#1-annotate-effectors-using-miniprot)
-2. [Filter gene models](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/tree/main#2-filter-gene-models)
-3. [Merge gene models](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/tree/main#3-merge-gene-models)
-4. [Annotate proteins using InterProScan](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/tree/main#4-annotate-proteins-using-interproscan)
+1. [Complement effector annotations using miniprot](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024?tab=readme-ov-file#1-complement-effector-annotations-using-miniprot)
+2. [Filter gene models](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024?tab=readme-ov-file#2-filter-gene-models)
+3. [Merge gene models](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024?tab=readme-ov-file#3-merge-gene-models)
+4. [Plot genome features]()
+5. [Annotate proteins using InterProScan](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/tree/main#5-annotate-proteins-using-interproscan)
+
 
 
 
@@ -240,6 +242,8 @@ gffread -y Br62.merged.protein.fa \
 - [AG006.merged.protein.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/6_merged_annotation/AG006.merged.protein.fa): Protein sequences extracted from merged annotation of AG006
 - [Br62.merged.protein.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/6_merged_annotation/Br62.merged.protein.fa): Protein sequences extracted from merged annotation of Br62
 
+## 4. Plot genome features
+
 To plot the distribution of gene models, we used their middle positions. When a locus had multiple alternative transcripts, we used the middle position of the locus region and regarded them as a single gene. if any of the alternative transcripts was derived from miniprot or predicted to be a putative secreted protein, the locus was considered to code for a putative secreted protein. We used [secreted_protein_or_not.py](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/secreted_protein_or_not.py) to make this table.
 
 **Input files:**
@@ -248,7 +252,10 @@ To plot the distribution of gene models, we used their middle positions. When a 
 - [Br62.merged.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/6_merged_annotation/Br62.merged.gff3): Merged annotation of Br62
 - [Br62.proteins.secreted_proteins.final.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/4_BRAKER_annotation/Br62.proteins.secreted_proteins.final.fa): Putative secreted proteins extracted from BRAKER annotation [Br62.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/4_BRAKER_annotation/Br62.gff3)
 
-## 4. Annotate proteins using InterProScan
+**Output files:**
+
+
+## 5. Annotate proteins using InterProScan
 
 We annotated the protein sequences using InterProScan.
 
