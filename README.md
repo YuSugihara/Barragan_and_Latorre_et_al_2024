@@ -2,14 +2,11 @@
 
 ### Table of contents
 
-1. [Complement effector annotations using miniprot](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024?tab=readme-ov-file#1-complement-effector-annotations-using-miniprot)
-2. [Filter gene models](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024?tab=readme-ov-file#2-filter-gene-models)
-3. [Merge gene models](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024?tab=readme-ov-file#3-merge-gene-models)
-4. [Plot genome features]()
-5. [Annotate proteins using InterProScan](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/tree/main#5-annotate-proteins-using-interproscan)
-
-
-
+1. [Complement effector annotations using miniprot](#1-complement-effector-annotations-using-miniprot)
+2. [Filter gene models](#2-filter-gene-models)
+3. [Merge gene models](#3-merge-gene-models)
+4. [Plot genome features](#4-plot-genome-features)
+5. [Annotate proteins using InterProScan](#5-annotate-proteins-using-interproscan)
 
 ## 1. Complement effector annotations using miniprot
 To complement the effector annotation of BRAKER, we used miniprot and aligned two effector datasets ([Petit-Houdenot et al., 2020](https://doi.org/10.1094/MPMI-03-20-0052-A); [Yan et al., 2023](https://doi.org/10.1093/plcell/koad036)) to [AG006 and Br62 genomes](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/tree/main/2_genomes).
@@ -85,7 +82,7 @@ gffread -g Br62.fa -x Br62.miniprot.cds.fa Br62.miniprot.gff3
 - [AG006.miniprot.cds.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/3_miniprot_annotation/AG006.miniprot.cds.fa): CDS extracted from miniprot annotation of AG006
 - [Br62.miniprot.cds.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/3_miniprot_annotation/Br62.miniprot.cds.fa): CDS extracted from miniprot annotation of Br62
 
-Using [gff_qc.py](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/gff_qc.py), we added new columns to the GFF files to annotate gene models that lacked complete codons, contained a premature stop codon within the CDS, did not start with a start codon, or were shorter than 150 bases.
+Using [gff_qc.py](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/scripts/gff_qc.py), we added new columns to the GFF files to annotate gene models that lacked complete codons, contained a premature stop codon within the CDS, did not start with a start codon, or were shorter than 150 bases.
 
 ```bash
 # Usage:
@@ -244,7 +241,7 @@ gffread -y Br62.merged.protein.fa \
 
 ## 4. Plot genome features
 
-To plot the distribution of gene models, we used their middle positions. When a locus had multiple alternative transcripts, we used the middle position of the locus region and regarded them as a single gene. if any of the alternative transcripts was derived from miniprot or predicted to be a putative secreted protein, the locus was considered to code for a putative secreted protein. We used [secreted_protein_or_not.py](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/secreted_protein_or_not.py) to make this table.
+To plot the distribution of gene models, we used their middle positions. When a locus had multiple alternative transcripts, we used the middle position of the locus region and regarded them as a single gene. if any of the alternative transcripts was derived from miniprot or predicted to be a putative secreted protein, the locus was considered to code for a putative secreted protein. We used [secreted_protein_or_not.py](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/scripts/secreted_protein_or_not.py) to make this table.
 
 **Input files:**
 - [AG006.merged.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/6_merged_annotation/AG006.merged.gff3): Merged annotation of AG006
@@ -253,7 +250,8 @@ To plot the distribution of gene models, we used their middle positions. When a 
 - [Br62.proteins.secreted_proteins.final.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/4_BRAKER_annotation/Br62.proteins.secreted_proteins.final.fa): Putative secreted proteins extracted from BRAKER annotation [Br62.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/4_BRAKER_annotation/Br62.gff3)
 
 **Output files:**
-
+- [AG006.genes.tsv](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/7_plot_features/AG006.genes.tsv): Table of gene models in AG006. Each row represents a gene model with the following columns: contig_name, position, secreted_or_not, transcript_ids.
+- [Br62.genes.tsv](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/7_plot_features/Br62.genes.tsv): Table of gene models in Br62. Each row represents a gene model with the following columns: contig_name, position, secreted_or_not, transcript_ids.
 
 ## 5. Annotate proteins using InterProScan
 
