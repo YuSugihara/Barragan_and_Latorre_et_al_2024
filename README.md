@@ -7,6 +7,7 @@
 3. [Merge gene models](#3-merge-gene-models)
 4. [Plot genome features](#4-plot-genome-features)
 5. [Annotate proteins using InterProScan](#5-annotate-proteins-using-interproscan)
+6. [Version information](#6-version-information) 
 
 ## 1. Complement effector annotations using miniprot
 To complement the effector annotation of BRAKER, we used miniprot and aligned two effector datasets ([Petit-Houdenot et al., 2020](https://doi.org/10.1094/MPMI-03-20-0052-A); [Yan et al., 2023](https://doi.org/10.1093/plcell/koad036)) to [AG006 and Br62 genomes](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/tree/main/2_genomes).
@@ -253,6 +254,25 @@ To plot the distribution of gene models, we used their middle positions. When a 
 - [AG006.genes.tsv](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/7_plot_features/AG006.genes.tsv): Table of gene models in AG006. Each row represents a gene model with the following columns: contig_name, position, secreted_or_not, transcript_ids.
 - [Br62.genes.tsv](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/7_plot_features/Br62.genes.tsv): Table of gene models in Br62. Each row represents a gene model with the following columns: contig_name, position, secreted_or_not, transcript_ids.
 
+To plot genomic features, we run the scripts in [plot_genome_features.py]() and [plot_mChrA_features.py]() on Jupyter Notebook.
+
+**Input files:**
+- [AG006.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/2_genomes/AG006.fa): *M. oryzae* AG006 genome
+- [Br62.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/2_genomes/Br62.fa): *M. oryzae* Br62 genome
+- [AG006.genes.tsv](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/7_plot_features/AG006.genes.tsv): Table of gene models in AG006. Each row represents a gene model with the following columns: contig_name, position, secreted_or_not, transcript_ids.
+- [Br62.genes.tsv](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/7_plot_features/Br62.genes.tsv): Table of gene models in Br62. Each row represents a gene model with the following columns: contig_name, position, secreted_or_not, transcript_ids.
+
+**Output files:**
+- [AG006_contig.tsv](): Table of AG006 contigs with the following columns: contig_name, contig_length, No_genes, No_secreted_proteins, repeat_%, GC_%.
+- [AG006_window.tsv](): Table of AG006 genome features with the following columns: contig_name, start, end, No_genes, No_secreted_proteins, repeat_%, GC_%.
+- [AG006.pdf](): Plot of AG006 genome features (100-kbp window)
+- [AG006_mChrA.pdf](): Plot of AG006 mChrA features (10-kbp window)
+- [Br62_contig.tsv](): Table of Br62 contigs with the following columns: contig_name, contig_length, No_genes, No_secreted_proteins, repeat_%, GC_%.
+- [Br62_window.tsv](): Table of Br62 genome features with the following columns: contig_name, start, end, No_genes, No_secreted_proteins, repeat_%, GC_%.
+- [Br62.pdf](): Plot of Br62 genome features (100-kbp window)
+- [Br62_mChrA.pdf](): Plot of Br62 mChrA features (10-kbp window)
+
+
 ## 5. Annotate proteins using InterProScan
 
 We annotated the protein sequences using InterProScan.
@@ -283,7 +303,7 @@ interproscan.sh -i Br62.merged.protein.fa \
 - [AG006.merged.protein.interproscan_results.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/7_interproscan_results/AG006.merged.protein.interproscan_results.gff3): InterProScan results of AG006 protein sequences
 - [Br62.merged.protein.interproscan_results.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/7_interproscan_results/Br62.merged.protein.interproscan_results.gff3): InterProScan results of Br62 protein sequences
 
-## Version information
+## 6. Version information
 
 | Program        | Version    |
 | -------------- | ---------- |
@@ -293,3 +313,6 @@ interproscan.sh -i Br62.merged.protein.fa \
 | *python*       | v3.10.14   |
 | *biopyhon*     | v1.83      |
 | *pandas*       | v2.2.1     |
+| *matplotlib*   | v3.8.3     |
+| *seaborn*      | v0.13.2    |
+| *numpy*        | v1.26.4    |
