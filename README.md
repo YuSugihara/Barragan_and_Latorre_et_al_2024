@@ -2,11 +2,12 @@
 
 ### Table of contents
 
-1. [Annotate effectors using miniprot](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024?tab=readme-ov-file#1-annotate-effectors-using-miniprot)
-2. [Filter and merge gene models](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/tree/main#2-filter-and-merge-gene-models)
+1. [Complement effector annotations using miniprot](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024?tab=readme-ov-file#1-annotate-effectors-using-miniprot)
+2. [Filter gene models](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/tree/main#2-filter-gene-models)
+3. [Merge gene models](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/tree/main#2-merge-gene-models)
+4. [Annotate proteins using InterProScan]()
 
-
-## 1. Annotate effectors using miniprot
+## 1. Complement effector annotations using miniprot
 To complement the effector annotation of BRAKER, we used miniprot and aligned two effector datasets ([Petit-Houdenot et al., 2020](https://doi.org/10.1094/MPMI-03-20-0052-A); [Yan et al., 2023](https://doi.org/10.1093/plcell/koad036)) to [AG006 and Br62 genomes](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/tree/main/2_genomes).
 
 First, we merged two effector datasets into a single file.
@@ -55,7 +56,7 @@ grep -v "##PAF" > Br62.miniprot.gff3
 - [AG006.miniprot.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/3_miniprot_annotation/AG006.miniprot.gff3): miniprot annotation of AG006
 - [Br62.miniprot.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/3_miniprot_annotation/Br62.miniprot.gff3): miniprot annotation of Br62
 
-## 2. Filter and merge gene models
+## 2. Filter gene models
 
 We extracted CDS from both BRAKER and miniprot annotations using gffread.
 
@@ -185,8 +186,9 @@ Br62.miniprot_qc.filtered.gff3
 - [Br62.braker_qc.filtered.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/Br62.braker_qc.filtered.gff3): BRAKER annotation of Br62 after filtering
 - [Br62.miniprot_qc.filtered.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/Br62.miniprot_qc.filtered.gff3): miniprot annotation of Br62 after filtering
 
+## 3. Merge gene models
 
-Finally, we merged the BRAKER and miniprot annotations and extracted CDS and protein sequences using gffread.
+We merged the BRAKER and miniprot annotations using gffread. We then extracted CDS and protein sequences from merged GFF.
 
 ```bash
 gffread --sort-alpha \
@@ -235,6 +237,9 @@ gffread -y Br62.merged.protein.fa \
 - [Br62.merged.cds.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/6_merged_annotation/Br62.merged.cds.fa): CDS extracted from merged annotation of Br62
 - [AG006.merged.protein.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/6_merged_annotation/AG006.merged.protein.fa): Protein sequences extracted from merged annotation of AG006
 - [Br62.merged.protein.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/6_merged_annotation/Br62.merged.protein.fa): Protein sequences extracted from merged annotation of Br62
+- 
+
+## 4. Annotate proteins using InterProScan
 
 
 ## Dependencies
