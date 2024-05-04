@@ -138,9 +138,9 @@ gff_qc.py Br62.miniprot.gff3 \
 - [AG006.braker_qc.txt](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/AG006.braker_qc.txt): List of QC annotations for AG006 BRAKER annotation
 - [Br62.braker_qc.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/Br62.braker_qc.gff3): BRAKER annotation of Br62 with QC annotations
 - [Br62.braker_qc.txt](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/Br62.braker_qc.txt): List of QC annotations for Br62 BRAKER annotation
-- [AG006.miniprot_qc.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/AG006.miniprot_qc.filtered.gff3): miniprot annotation of AG006 with QC annotations
+- [AG006.miniprot_qc.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/AG006.miniprot_qc.gff3): miniprot annotation of AG006 with QC annotations
 - [AG006.miniprot_qc.txt](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/AG006.miniprot_qc.txt): List of QC annotations for AG006 miniprot annotation
-- [Br62.miniprot_qc.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/Br62.miniprot_qc.filtered.gff3): miniprot annotation of Br62 with QC annotations
+- [Br62.miniprot_qc.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/Br62.miniprot_qc.gff3): miniprot annotation of Br62 with QC annotations
 - [Br62.miniprot_qc.txt](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/Br62.miniprot_qc.txt): List of QC annotations for Br62 miniprot annotation
 
 
