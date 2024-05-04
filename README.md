@@ -242,7 +242,7 @@ gffread -y Br62.merged.protein.fa \
 
 ## 4. Plot genome features
 
-To plot the distribution of gene models, we used their middle positions. When a locus had multiple alternative transcripts, we used the middle position of the locus region and regarded them as a single gene. If any of the alternative transcripts was derived from miniprot or predicted to be a putative secreted protein, the locus was considered to code for a putative secreted protein. We used [secreted_protein_or_not.py](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/scripts/secreted_protein_or_not.py) to make this table.
+To plot the distribution of gene models, we used their middle positions. When a locus had multiple alternative transcripts, we used the middle position of the locus region and regarded them as a single gene. If any of the alternative transcripts was derived from miniprot or predicted to be a putative secreted protein, the locus was considered to code for a putative secreted protein. We used [secreted_protein_or_not.py](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/scripts/secreted_protein_or_not.py) to summarize the information.
 
 **Input files:**
 - [AG006.merged.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/6_merged_annotation/AG006.merged.gff3): Merged annotation of AG006
