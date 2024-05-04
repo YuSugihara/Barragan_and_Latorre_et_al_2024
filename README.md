@@ -50,8 +50,8 @@ miniprot -t 2 \
 grep -v "##PAF" > Br62.miniprot.gff3
 ```
 **Input files:**
-- [AG006.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/2_genomes/AG006.fa): *M. oryzae* AG006 genome
-- [Br62.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/2_genomes/Br62.fa): *M. oryzae* Br62 genome
+- [AG006.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/2_genomes/AG006.fa): AG006 genome
+- [Br62.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/2_genomes/Br62.fa): Br62 genome
 - [effector_dataset.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/1_effector_dataset/effector_dataset.fa): Merged effector dataset
 
 **Output files:**
@@ -70,8 +70,8 @@ gffread -g Br62.fa -x Br62.miniprot.cds.fa Br62.miniprot.gff3
 ```
 
 ***Input files:**
-- [AG006.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/2_genomes/AG006.fa): *M. oryzae* AG006 genome
-- [Br62.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/2_genomes/Br62.fa): *M. oryzae* Br62 genome
+- [AG006.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/2_genomes/AG006.fa): AG006 genome
+- [Br62.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/2_genomes/Br62.fa): Br62 genome
 - [AG006.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/4_BRAKER_annotation/AG006.gff3): BRAKER annotation of AG006
 - [Br62.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/4_BRAKER_annotation/Br62.gff3): BRAKER annotation of Br62
 - [AG006.miniprot.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/3_miniprot_annotation/AG006.miniprot.gff3): miniprot annotation of AG006
@@ -242,7 +242,7 @@ gffread -y Br62.merged.protein.fa \
 
 ## 4. Plot genome features
 
-To plot the distribution of gene models, we used their middle positions. When a locus had multiple alternative transcripts, we used the middle position of the locus region and regarded them as a single gene. if any of the alternative transcripts was derived from miniprot or predicted to be a putative secreted protein, the locus was considered to code for a putative secreted protein. We used [secreted_protein_or_not.py](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/scripts/secreted_protein_or_not.py) to make this table.
+To plot the distribution of gene models, we used their middle positions. When a locus had multiple alternative transcripts, we used the middle position of the locus region and regarded them as a single gene. If any of the alternative transcripts was derived from miniprot or predicted to be a putative secreted protein, the locus was considered to code for a putative secreted protein. We used [secreted_protein_or_not.py](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/scripts/secreted_protein_or_not.py) to make this table.
 
 **Input files:**
 - [AG006.merged.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/6_merged_annotation/AG006.merged.gff3): Merged annotation of AG006
@@ -257,8 +257,8 @@ To plot the distribution of gene models, we used their middle positions. When a 
 To plot genomic features, we run the scripts in [plot_genome_features.py](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/scripts/plot_genome_features.py) and [plot_mChrA_features.py](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/scripts/plot_mChrA_features.py) on Jupyter Notebook.
 
 **Input files:**
-- [AG006.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/2_genomes/AG006.fa): *M. oryzae* AG006 genome
-- [Br62.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/2_genomes/Br62.fa): *M. oryzae* Br62 genome
+- [AG006.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/2_genomes/AG006.fa): AG006 genome
+- [Br62.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/2_genomes/Br62.fa): Br62 genome
 - [AG006.genes.tsv](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/7_plot_features/AG006.genes.tsv): Table of gene models in AG006. Each row represents a gene model with the following columns: contig_name, position, secreted_or_not, transcript_ids.
 - [Br62.genes.tsv](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/7_plot_features/Br62.genes.tsv): Table of gene models in Br62. Each row represents a gene model with the following columns: contig_name, position, secreted_or_not, transcript_ids.
 
