@@ -300,8 +300,8 @@ interproscan.sh -i Br62.merged.protein.fa \
 - [Br62.merged.protein.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/6_merged_annotation/Br62.merged.protein.fa): Protein sequences extracted from merged annotation of Br62
 
 **Output files:**
-- [AG006.merged.protein.interproscan_results.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/7_interproscan_results/AG006.merged.protein.interproscan_results.gff3): InterProScan results of AG006 protein sequences
-- [Br62.merged.protein.interproscan_results.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/7_interproscan_results/Br62.merged.protein.interproscan_results.gff3): InterProScan results of Br62 protein sequences
+- [AG006.merged.protein.interproscan_results.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/8_interproscan_results/AG006.merged.protein.interproscan_results.gff3): InterProScan results of AG006 protein sequences
+- [Br62.merged.protein.interproscan_results.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/8_interproscan_results/Br62.merged.protein.interproscan_results.gff3): InterProScan results of Br62 protein sequences
 
 ## 6. Version information
 
