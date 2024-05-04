@@ -263,11 +263,11 @@ To plot genomic features, we run the scripts in [plot_genome_features.py](https:
 - [Br62.genes.tsv](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/7_plot_features/Br62.genes.tsv): Table of gene models in Br62. Each row represents a gene model with the following columns: contig_name, position, secreted_or_not, transcript_ids.
 
 **Output files:**
-- [AG006_contig.tsv](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/7_plot_features/AG006_contig.tsv): Table of AG006 contigs with the following columns: contig_name, contig_length, No_genes, No_secreted_proteins, repeat_%, GC_%.
+- [AG006_contig.tsv](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/7_plot_features/AG006_contig.tsv): Table of AG006 contigs with the following columns: contig_name, No_genes, No_secreted_proteins, repeat_%, GC_%.
 - [AG006_window.tsv](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/7_plot_features/AG006_window.tsv): Table of AG006 genome features with the following columns: contig_name, start, end, No_genes, No_secreted_proteins, repeat_%, GC_%.
 - [AG006.pdf](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/7_plot_features/AG006.pdf): Plot of AG006 genome features (100-kbp window)
 - [AG006_mChrA.pdf](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/7_plot_features/AG006_mChrA.pdf): Plot of AG006 mChrA features (10-kbp window)
-- [Br62_contig.tsv](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/7_plot_features/Br62_contig.tsv): Table of Br62 contigs with the following columns: contig_name, contig_length, No_genes, No_secreted_proteins, repeat_%, GC_%.
+- [Br62_contig.tsv](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/7_plot_features/Br62_contig.tsv): Table of Br62 contigs with the following columns: contig_name, No_genes, No_secreted_proteins, repeat_%, GC_%.
 - [Br62_window.tsv](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/7_plot_features/Br62_window.tsv): Table of Br62 genome features with the following columns: contig_name, start, end, No_genes, No_secreted_proteins, repeat_%, GC_%.
 - [Br62.pdf](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/7_plot_features/Br62.pdf): Plot of Br62 genome features (100-kbp window)
 - [Br62_mChrA.pdf](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/7_plot_features/Br62_mChrA.pdf): Plot of Br62 mChrA features (10-kbp window)
