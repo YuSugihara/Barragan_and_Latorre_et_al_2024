@@ -1,12 +1,11 @@
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+from Bio import SeqIO
 from matplotlib import cm
 from matplotlib.colors import Normalize
 from matplotlib.cm import ScalarMappable
-from matplotlib import cm
-import matplotlib.pyplot as plt
-import seaborn as sns
-import pandas as pd
-import numpy as np
-from Bio import SeqIO
 
 
 sns.set_style("ticks")
