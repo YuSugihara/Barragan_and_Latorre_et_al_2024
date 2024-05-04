@@ -83,7 +83,7 @@ gffread -g Br62.fa -x Br62.miniprot.cds.fa Br62.miniprot.gff3
 - [AG006.miniprot.cds.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/3_miniprot_annotation/AG006.miniprot.cds.fa): CDS extracted from miniprot annotation of AG006
 - [Br62.miniprot.cds.fa](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/3_miniprot_annotation/Br62.miniprot.cds.fa): CDS extracted from miniprot annotation of Br62
 
-Using [gff_qc.py](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/scripts/gff_qc.py), we added new columns to the GFF files to annotate gene models that lacked complete codons, contained a premature stop codon within the CDS, did not start with a start codon, or were shorter than 150 bases.
+Using [gff_qc.py](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/scripts/gff_qc.py), we added new columns to the GFF files to annotate gene models that lacked complete codons, contained a premature stop codon within the CDS, did not start with a start codon, or were shorter than 150 bases for QC (quality control).
 
 ```bash
 # Usage:
