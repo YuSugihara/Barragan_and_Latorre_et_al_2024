@@ -183,10 +183,10 @@ Br62.miniprot_qc.filtered.gff3
 - [Br62.miniprot_qc.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/Br62.miniprot_qc.gff3): miniprot annotation of Br62 with QC annotations
 
 **Output files:**
-- [AG006.braker_qc.filtered.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/AG006.braker_qc.filtered.gff3): BRAKER annotation of AG006 after filtering
-- [AG006.miniprot_qc.filtered.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/AG006.miniprot_qc.filtered.gff3): miniprot annotation of AG006 after filtering
-- [Br62.braker_qc.filtered.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/Br62.braker_qc.filtered.gff3): BRAKER annotation of Br62 after filtering
-- [Br62.miniprot_qc.filtered.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/Br62.miniprot_qc.filtered.gff3): miniprot annotation of Br62 after filtering
+- [AG006.braker_qc.filtered.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/AG006.braker_qc.filtered.gff3): Filtered BRAKER annotation of AG006
+- [AG006.miniprot_qc.filtered.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/AG006.miniprot_qc.filtered.gff3): Filtered miniprot annotation of AG006
+- [Br62.braker_qc.filtered.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/Br62.braker_qc.filtered.gff3): Filtered BRAKER annotation of Br62
+- [Br62.miniprot_qc.filtered.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/Br62.miniprot_qc.filtered.gff3): Filtered miniprot annotation of Br62
 
 ## 3. Merge gene models
 
@@ -227,10 +227,10 @@ gffread -y Br62.merged.protein.fa \
 ```
 
 **Input files:**
-- [AG006.braker_qc.filtered.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/AG006.braker_qc.filtered.gff3): BRAKER annotation of AG006 after filtering
-- [AG006.miniprot_qc.filtered.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/AG006.miniprot_qc.filtered.gff3): miniprot annotation of AG006 after filtering
-- [Br62.braker_qc.filtered.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/Br62.braker_qc.filtered.gff3): BRAKER annotation of Br62 after filtering
-- [Br62.miniprot_qc.filtered.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/Br62.miniprot_qc.filtered.gff3): miniprot annotation of Br62 after filtering
+- [AG006.braker_qc.filtered.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/AG006.braker_qc.filtered.gff3): Filtered BRAKER annotation of AG006
+- [AG006.miniprot_qc.filtered.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/AG006.miniprot_qc.filtered.gff3): Filtered miniprot annotation of AG006
+- [Br62.braker_qc.filtered.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/Br62.braker_qc.filtered.gff3): Filtered BRAKER annotation of Br62
+- [Br62.miniprot_qc.filtered.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/5_gff_qc/Br62.miniprot_qc.filtered.gff3): Filtered miniprot annotation of Br62
 
 **Output files:**
 - [AG006.merged.gff3](https://github.com/YuSugihara/Barragan_and_Latorre_et_al_2024/blob/main/6_merged_annotation/AG006.merged.gff3): Merged annotation of AG006
